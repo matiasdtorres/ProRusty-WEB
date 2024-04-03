@@ -1,0 +1,280 @@
+.icon {
+    width: 15px;
+    height: 20px;
+    margin-top: -1px;
+}
+
+
+/*
+ * ---------------------------------------------
+ * 3 - Buttons
+ * ---------------------------------------------
+ */
+
+.btn {
+    border-radius: 0;
+    border: 0;
+    padding: 8px 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn.btn-success {
+    background: rgb(61, 75, 39);
+    color: rgb(166, 205, 99);
+}
+
+.btn.btn-success:hover {
+    background: rgb(88, 108, 57);
+}
+
+.btn.btn-success:active {
+    background: rgb(61, 75, 39);
+}
+
+.btn.btn-primary {
+    background: rgb(29, 66, 95);
+    color: rgb(72, 154, 212);
+}
+
+.btn.btn-primary:hover {
+    background: rgb(39, 85, 121);
+}
+
+.btn.btn-primary:active {
+    background: rgb(29, 66, 95);
+}
+
+.btn.btn-secondary {
+    background: rgb(89, 85, 82);
+    color: rgb(204, 195, 190);
+}
+
+.btn.btn-secondary:hover {
+    background: rgb(111, 107, 103);
+}
+
+.btn.btn-secondary:active {
+    background: rgb(89, 85, 82);
+}
+
+.btn.btn-danger {
+    background: rgb(150, 47, 32);
+    color: rgb(199, 152, 151);
+}
+
+.btn.btn-danger:hover {
+    background: rgb(172, 56, 39);
+}
+
+.btn.btn-danger:active {
+    background: rgb(150, 47, 32);
+}
+
+.btn.btn-discord {
+    background: rgb(114, 137, 218);
+    color: rgb(255, 255, 255);
+}
+
+.btn.btn-discord:hover {
+    background: rgb(132, 156, 238);
+}
+
+.btn.btn-discord:active {
+    background: rgb(114, 137, 218);
+}
+
+.btn.btn-discord svg {
+    height: 24px;
+    margin-top: -1px;
+}
+
+
+
+/*
+ * ---------------------------------------------
+ * 6 - Servers
+ * ---------------------------------------------
+ */
+
+.servers .server {
+    border: 6px solid rgb(31, 32, 26);
+    background: rgb(31, 32, 26);
+    margin-top: 25px;
+    position: relative;
+}
+
+.servers .server .server-container {
+    padding: 10px;
+    text-align: center;
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
+}
+
+.servers .server .server-container .server-name {
+    color: rgb(198, 192, 186);
+    font-weight: bold;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.servers .server .server-container .server-description {
+    color: rgb(142, 143, 138);
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.servers .server .server-container .server-players {
+    color: rgb(142, 143, 138);
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.servers .server .server-tags {
+    margin-bottom: 5px;
+}
+
+.servers .server .server-tags .server-tag {
+    background: #26435E;
+    color: #C2C5CC;
+    padding: 5px 8px;
+    font-size: 15px;
+}
+
+.servers .server .server-image-container {
+    position: relative;
+}
+
+.servers .server .server-image-container .server-image-overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(31,32,26,0) 35%, rgba(31,32,26,1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.servers .server .progress {
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.servers .server .progress .progress-bar.bg-rust {
+    background-color: rgb(166, 205, 99);
+}
+
+.servers .server .server-image-container {
+    position: relative;
+}
+
+.servers .server .server-offline {
+    background: rgb(150, 47, 32);
+    color: rgb(199, 152, 151);
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.servers .server .server-offline .icon {
+    margin-top: -2px;
+}
+
+
+/*
+ * ---------------------------------------------
+ * 7 - Servers Modal
+ * ---------------------------------------------
+ */
+
+.modal.modal-rust .modal-content {
+    border: 8px solid rgb(31, 32, 26);
+    border-radius: 0;
+    background: rgb(31, 32, 26);
+    color: rgb(108, 110, 105);
+}
+
+.modal.modal-rust .modal-body {
+    padding: 0;
+}
+
+.modal.modal-rust .modal-footer {
+    border-top: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.modal.modal-rust .modal-footer .btn {
+    margin: 4px 2px;
+}
+
+.modal.modal-rust .server-image-modal-container .server-image-modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(31,32,26,0) 35%, rgba(31,32,26,1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.modal.modal-rust .server-image-modal-container {
+    position: relative;
+}
+
+.modal.modal-rust .server-modal-details {
+    margin-top: -60px;
+    z-index: 2;
+    position: relative;
+}
+
+.modal.modal-rust .server-modal-details .server-name {
+    color: rgb(198, 192, 186);
+    font-weight: bold;
+    font-size: 28px;
+    display: block;
+    text-align: center;
+}
+
+.modal.modal-rust .server-modal-details .server-description {
+    color: rgb(173, 168, 162);
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-top: -8px;
+}
+
+.modal.modal-rust .server-modal-details .server-rules {
+    margin-top: 10px;
+    color: rgb(105, 107, 102);
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    line-height: 24px;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal.modal-rust .server-modal-details .server-rules a {
+    color: rgb(164, 167, 160);
+    text-decoration: none;
+}
+
+.modal.modal-rust .server-modal-details .server-rules a:hover {
+    color: rgb(187, 191, 185);
+}
