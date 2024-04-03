@@ -10,7 +10,7 @@
 
 	$config = require __DIR__ . '/config.php';
 
-	require __DIR__ . '/app/SourceQuery/bootstrap.php';
+	require __DIR__ . '/servers/app/SourceQuery/bootstrap.php';
 
 	use xPaw\SourceQuery\SourceQuery;
 
