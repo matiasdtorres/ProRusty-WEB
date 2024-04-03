@@ -292,223 +292,21 @@
     <section class="cs_primary_bg">
       <div class="cs_height_143 cs_height_lg_75"></div>
       <div class="container">
-        <div class="cs_section_heading cs_style_1 cs_type_2">
-          <div class="cs_section_heading_left">
-            <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">About Us</p>
-            <div class="cs_height_10 cs_height_lg_5"></div>
-            <h2 class="cs_section_title cs_fs_50 mb-0 cs_white_color wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">Imaginative solutions that drive <br>creativity & innovation.</h2>
-          </div>
-          <div class="cs_section_heading_right">
-            <a href="about.php" class="cs_btn cs_style_1 cs_btn_white">Learn More
-              <span><i class="fa-solid fa-arrow-right"></i></span>
-            </a>
-          </div>
+        <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
+          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">By Histeria Servers</p>
+          <div class="cs_height_10 cs_height_lg_5"></div>
+          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Servidor alojado en <br> Argentina</h2>
         </div>
         <div class="cs_height_85 cs_height_lg_45"></div>
-        <div class="row g-3">
-          <div class="col-lg-12">
-            <div class="cs_goal cs_radius_5 cs_bg_filed" data-src="assets/img/tech-startup/goal.jpg">
-              <div class="cs_goal_text">
-                <p class="cs_goal_subtitle cs_white_color">Our Goal</p>
-                <h2 class="cs_goal_title mb-0 cs_fs_29 cs_semibold cs_white_color">Revolutionize industries with cutting-edge solutions.</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="cs_mission cs_radius_5">
-              <span class="cs_primary_color cs_radius_15">Our Mission</span>
-              <h2 class="cs_fs_29 cs_semibold">Empowering businesses through tech innovation.</h2>
-              <p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="cs_vision cs_radius_5">
-              <span class="cs_primary_color cs_radius_15">Our Vision</span>
-              <h2 class="cs_fs_29 cs_semibold">Transforming businesses, shaping a smarter world.</h2>
-              <p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque.</p>
-            </div>
-          </div>
-        </div>
+          <?php
+              require_once __DIR__ . '/servers/core.php';
+
+              include 'servers/servers.php';
+          ?>
       </div>
       <div class="cs_height_150 cs_height_lg_80"></div>
     </section>
     <!-- End About Us -->
-    <!-- Start Service Section -->
-    <section>
-      <div class="cs_height_143 cs_height_lg_75"></div>
-      <div class="container">
-        <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
-          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">Services</p>
-          <div class="cs_height_10 cs_height_lg_5"></div>
-          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Our aim is to improve tech based <br> solution on business</h2>
-        </div>
-        <div class="cs_height_85 cs_height_lg_45"></div>
-        <div class="row g-3">
-          <div class="col-lg-6 col-xl-3">
-            <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
-              <div class="cs_iconbox_icon cs_center"><img src="assets/img/tech-startup/service_icon_1.svg" alt="Icon"></div>
-              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.php">Chat Bot</a></h2>
-              <p class="cs_iconbox_subtitle cs_gray_color_2">AI can analyze large volumes of data quickly and accurately, extracting valuable insights for decision making.</p>
-              <a href="service-details.php" class="cs_iconbox_btn">
-                <svg width="46" height="24" viewBox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M45.0607 13.0616C45.6464 12.4759 45.6464 11.5261 45.0607 10.9403L35.5147 1.39437C34.9289 0.808588 33.9792 0.808588 33.3934 1.39437C32.8076 1.98016 32.8076 2.92991 33.3934 3.5157L41.8787 12.001L33.3934 20.4863C32.8076 21.072 32.8076 22.0218 33.3934 22.6076C33.9792 23.1934 34.9289 23.1934 35.5147 22.6076L45.0607 13.0616ZM0 13.501H44V10.501H0V13.501Z" fill="currentColor"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-3">
-            <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
-              <div class="cs_iconbox_icon cs_center"><img src="assets/img/tech-startup/service_icon_2.svg" alt="Icon"></div>
-              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.php">Email Client</a></h2>
-              <p class="cs_iconbox_subtitle cs_gray_color_2">AI can analyze large volumes of data quickly and accurately, extracting valuable insights for decision making.</p>
-              <a href="service-details.php" class="cs_iconbox_btn">
-                <svg width="46" height="24" viewBox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M45.0607 13.0616C45.6464 12.4759 45.6464 11.5261 45.0607 10.9403L35.5147 1.39437C34.9289 0.808588 33.9792 0.808588 33.3934 1.39437C32.8076 1.98016 32.8076 2.92991 33.3934 3.5157L41.8787 12.001L33.3934 20.4863C32.8076 21.072 32.8076 22.0218 33.3934 22.6076C33.9792 23.1934 34.9289 23.1934 35.5147 22.6076L45.0607 13.0616ZM0 13.501H44V10.501H0V13.501Z" fill="currentColor"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-3">
-            <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
-              <div class="cs_iconbox_icon cs_center"><img src="assets/img/tech-startup/service_icon_3.svg" alt="Icon"></div>
-              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.php">AI Algorithm</a></h2>
-              <p class="cs_iconbox_subtitle cs_gray_color_2">AI can analyze large volumes of data quickly and accurately, extracting valuable insights for decision making.</p>
-              <a href="service-details.php" class="cs_iconbox_btn">
-                <svg width="46" height="24" viewBox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M45.0607 13.0616C45.6464 12.4759 45.6464 11.5261 45.0607 10.9403L35.5147 1.39437C34.9289 0.808588 33.9792 0.808588 33.3934 1.39437C32.8076 1.98016 32.8076 2.92991 33.3934 3.5157L41.8787 12.001L33.3934 20.4863C32.8076 21.072 32.8076 22.0218 33.3934 22.6076C33.9792 23.1934 34.9289 23.1934 35.5147 22.6076L45.0607 13.0616ZM0 13.501H44V10.501H0V13.501Z" fill="currentColor"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 col-xl-3">
-            <div class="cs_iconbox cs_style_5 cs_primary_bg text-center cs_radius_5">
-              <div class="cs_iconbox_icon cs_center"><img src="assets/img/tech-startup/service_icon_4.svg" alt="Icon"></div>
-              <h2 class="cs_iconbox_title cs_white_color cs_fs_21"><a href="tech-startup.php">Web Solution</a></h2>
-              <p class="cs_iconbox_subtitle cs_gray_color_2">AI can analyze large volumes of data quickly and accurately, extracting valuable insights for decision making.</p>
-              <a href="service-details.php" class="cs_iconbox_btn">
-                <svg width="46" height="24" viewBox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M45.0607 13.0616C45.6464 12.4759 45.6464 11.5261 45.0607 10.9403L35.5147 1.39437C34.9289 0.808588 33.9792 0.808588 33.3934 1.39437C32.8076 1.98016 32.8076 2.92991 33.3934 3.5157L41.8787 12.001L33.3934 20.4863C32.8076 21.072 32.8076 22.0218 33.3934 22.6076C33.9792 23.1934 34.9289 23.1934 35.5147 22.6076L45.0607 13.0616ZM0 13.501H44V10.501H0V13.501Z" fill="currentColor"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Service Section -->
-    <!-- Start Video Section -->
-    <section>
-      <div class="cs_height_130 cs_height_lg_70"></div>
-      <div class="container">
-        <h2 class="text-center cs_fs_68 cs_outline_text">Server</h2>
-        <?php
-            require_once __DIR__ . '/servers/core.php';
-
-            include 'servers/servers.php';
-        ?>
-      </div>
-    </section>
-    <!-- End Video Section -->
-    <!-- Start Funfact Section -->
-    <div>
-      <div class="cs_height_125 cs_height_lg_70"></div>
-      <div class="container">
-        <div class="cs_counter_1_wrap">
-          <div class="cs_counter cs_style_1 position-relative d-flex align-items-center">
-            <div class="cs_counter_nmber mb-0 cs_fs_68 d-flex align-items-center cs_bold cs_primary_color"><span data-count-to="22" class="odometer"></span>k</div>
-            <p class="cs_counter_title mb-0">Happy Customers</p>
-          </div>
-          <div class="cs_counter cs_style_1 position-relative d-flex align-items-center">
-            <div class="cs_counter_nmber mb-0 cs_fs_68 d-flex align-items-center cs_bold cs_primary_color"><span data-count-to="15" class="odometer"></span>k</div>
-            <p class="cs_counter_title mb-0">Work’s Completed</p>
-          </div>
-          <div class="cs_counter cs_style_1 position-relative d-flex align-items-center">
-            <div class="cs_counter_nmber mb-0 cs_fs_68 d-flex align-items-center cs_bold cs_primary_color"><span data-count-to="121" class="odometer"></span></div>
-            <p class="cs_counter_title mb-0">Skilled Team Members</p>
-          </div>
-          <div class="cs_counter cs_style_1 position-relative d-flex align-items-center">
-            <div class="cs_counter_nmber mb-0 cs_fs_68 d-flex align-items-center cs_bold cs_primary_color"><span data-count-to="15" class="odometer"></span></div>
-            <p class="cs_counter_title mb-0">Most Valuable Awards</p>
-          </div>
-        </div>
-      </div>
-      <div class="cs_height_125 cs_height_lg_70"></div>
-    </div>
-    <!-- End Funfact Section -->
-    <!-- Start Testimonial -->
-    <div class="cs_testimonial_2_wrap cs_primary_bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="cs_testimonial_thumb cs_bg_filed" data-src="assets/img/tech-startup/testimonial_thumb.jpg"></div>
-          </div>
-          <div class="col-lg-6">
-            <div class="cs_height_150 cs_height_lg_80"></div>
-            <div class="cs_slider cs_slider_2">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="cs_testimonial cs_style_1">
-                    <div class="cs_testimonial_icon">
-                      <svg width="56" height="40" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 40H16L24 24V0H0V24H12L4 40ZM36 40H48L56 24V0H32V24H44L36 40Z" fill="currentColor"/>
-                      </svg>            
-                    </div>
-                    <blockquote class="cs_testimonial_text cs_fs_21 cs_medium cs_white_color">Testimonio Prueba</blockquote>
-                    <div class="cs_testimonial_info">
-                      <h3 class="cs_fs_21 cs_semibold cs_white_color">Ansari Patron</h3>
-                      <p class="cs_gray_color_2">CEO at Delta</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="cs_testimonial cs_style_1">
-                    <div class="cs_testimonial_icon">
-                      <svg width="56" height="40" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 40H16L24 24V0H0V24H12L4 40ZM36 40H48L56 24V0H32V24H44L36 40Z" fill="currentColor"/>
-                      </svg>            
-                    </div>
-                    <blockquote class="cs_testimonial_text cs_fs_21 cs_medium cs_white_color">Testimonio Prueba</blockquote>
-                    <div class="cs_testimonial_info">
-                      <h3 class="cs_fs_21 cs_semibold cs_white_color">Ansari Patron</h3>
-                      <p class="cs_gray_color_2">CEO at Delta</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="cs_testimonial cs_style_1">
-                    <div class="cs_testimonial_icon">
-                      <svg width="56" height="40" viewBox="0 0 56 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4 40H16L24 24V0H0V24H12L4 40ZM36 40H48L56 24V0H32V24H44L36 40Z" fill="currentColor"/>
-                      </svg>            
-                    </div>
-                    <blockquote class="cs_testimonial_text cs_fs_21 cs_medium cs_white_color">Testimonio Prueba</blockquote>
-                    <div class="cs_testimonial_info">
-                      <h3 class="cs_fs_21 cs_semibold cs_white_color">Ansari Patron</h3>
-                      <p class="cs_gray_color_2">CEO at Delta</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="cs_pagination"></div>
-              <div class="cs_swiper_navigation cs_style_1">
-                <div class="cs_swiper_prev">
-                  <svg width="42" height="24" viewBox="0 0 42 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.93934 10.9393C0.353553 11.5251 0.353553 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97918 12.6066 1.3934C12.0208 0.807612 11.0711 0.807612 10.4853 1.3934L0.93934 10.9393ZM42 10.5L2 10.5V13.5L42 13.5V10.5Z" fill="currentColor"/>
-                  </svg>           
-                </div>
-                <div class="cs_swiper_next">
-                  <svg width="42" height="24" viewBox="0 0 42 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M41.0607 13.0607C41.6464 12.4749 41.6464 11.5251 41.0607 10.9393L31.5147 1.3934C30.9289 0.807611 29.9792 0.807611 29.3934 1.3934C28.8076 1.97919 28.8076 2.92893 29.3934 3.51472L37.8787 12L29.3934 20.4853C28.8076 21.0711 28.8076 22.0208 29.3934 22.6066C29.9792 23.1924 30.9289 23.1924 31.5147 22.6066L41.0607 13.0607ZM0 13.5H40V10.5H0V13.5Z" fill="currentColor"/>
-                  </svg>  
-                </div>
-              </div>
-            </div>
-            <div class="cs_height_150 cs_height_lg_80"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Testimonial -->
     <!-- Start Pricing Section -->
     <section class="cs_shape_animation_2">
       <div class="cs_shape_1 position-absolute">
@@ -524,9 +322,9 @@
       <div class="cs_height_143 cs_height_lg_75"></div>
       <div class="container">
         <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
-          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">Our Pricing</p>
+          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">TIENDA</p>
           <div class="cs_height_10 cs_height_lg_5"></div>
-          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Offering budget friendly pricing <br>solutions for your business</h2>
+          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Ofreciendo precios económicos <br>para nuestros usuarios</h2>
         </div>
         <div class="cs_height_85 cs_height_lg_45"></div>
       </div>
@@ -534,136 +332,358 @@
         <div class="cs_tabs cs_style1">
           <ul class="cs_tab_links cs_style1 cs_mp0 cs_pricing_control">
             <li class="active">
-              <a href="#tab_1">Monthly</a>
+              <a href="#tab_1">Pesos ARG</a>
               <span class="cs_switch"></span>
             </li>
-            <li><a href="#tab_2">Yearly</a></li>
+            <li><a href="#tab_2">Dolar US</a></li>
           </ul>
           <div class="cs_tab_body">
             <div class="cs_tab active" id="tab_1">
               <div class="row">
                 <div class="col-lg-4">
                   <div class="cs_pricing_table cs_style1 cs_radius_5">
-                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">Silver</h2>
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">NO FILA</h2>
                     <div class="cs_pricing_info">
                       <div class="cs_price">
-                        <h3 class="cs_accent_color cs_fs_50">$399</h3>
-                        <span class="cs_accent_color cs_medium">/month</span>
+                        <h3 class="cs_accent_color cs_fs_50">AR$ 650</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
                       </div>
-                      <div class="cs_price_text cs_gray_color_2">Control your choices for effective business growth and more customers.</div>
                     </div>
                     <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">                           
                         </span>
-                        <span>Limited content</span>
+                        <span>Te Permite Saltarte la Fila</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
-                          <img src="assets/img/icons/check.svg" alt="Icon">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
                         </span>
-                        <span>Ad campaign</span>
+                        <span>AD (autodoor)</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
-                          <img src="assets/img/icons/check.svg" alt="Icon">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
                         </span>
-                        <span>Branding consultancy</span>
+                        <span>Kit Build+</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
-                          <img src="assets/img/icons/check.svg" alt="Icon">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
                         </span>
-                        <span>Video ad banner</span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>BGRADE</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
                       </li>
                     </ul>
                     <div class="cs_pricing_btn_wrap">
-                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Choose Packedge</a>
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
                     </div>
                   </div>
                   <div class="cs_height_25 cs_height_lg_25"></div>
                 </div>
                 <div class="col-lg-4">
                   <div class="cs_pricing_table cs_style1 cs_radius_5">
-                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">Gold <span>Popular</span></h2>
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">BUILD+ <span>Popular</span></h2>
                     <div class="cs_pricing_info">
                       <div class="cs_price">
-                        <h3 class="cs_accent_color cs_fs_50">$449</h3>
-                        <span class="cs_accent_color cs_medium">/month</span>
+                        <h3 class="cs_accent_color cs_fs_50">AR$ 1300</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
                       </div>
-                      <div class="cs_price_text cs_gray_color_2">Control your choices for effective business growth and more customers.</div>
                     </div>
                     <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Limited content</span>
+                        <span>Permisos de NO FILA</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Social ad campaign</span>
+                        <span>BGRADE 3 (metal)</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Premium consultancy</span>
+                        <span>Kit Build+</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
-                          <img src="assets/img/icons/check.svg" alt="Icon">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
                         </span>
-                        <span>Secret strategy</span>
+                        <span>AD (autodoor)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
                       </li>
                     </ul>
                     <div class="cs_pricing_btn_wrap">
-                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Choose Packedge</a>
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
                     </div>
                   </div>
                   <div class="cs_height_25 cs_height_lg_25"></div>
                 </div>
                 <div class="col-lg-4">
                   <div class="cs_pricing_table cs_style1 cs_radius_5">
-                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">Platinum</h2>
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">VIP</h2>
                     <div class="cs_pricing_info">
                       <div class="cs_price">
-                        <h3 class="cs_accent_color cs_fs_50">$599</h3>
-                        <span class="cs_accent_color cs_medium">/Yearly</span>
+                        <h3 class="cs_accent_color cs_fs_50">AR$ 1900</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
                       </div>
-                      <div class="cs_price_text cs_gray_color_2">Control your choices for effective business growth and more customers.</div>
                     </div>
                     <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Unlimited content</span>
+                        <span>Permisos de NO FILA</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Ad campaign</span>
+                        <span>BGRADE 3 (metal)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit Build+</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Branding consultancy</span>
+                        <span>AD (autodoor)</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Video ad banner</span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
                       </li>
                     </ul>
                     <div class="cs_pricing_btn_wrap">
-                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Choose Packedge</a>
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
+                    </div>
+                  </div>
+                  <div class="cs_height_25 cs_height_lg_25"></div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="cs_pricing_table cs_style1 cs_radius_5">
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">CLAN VIP (Solo Lider)</h2>
+                    <div class="cs_pricing_info">
+                      <div class="cs_price">
+                        <h3 class="cs_accent_color cs_fs_50">AR$ 2300</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
+                      </div>
+                    </div>
+                    <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">                           
+                        </span>
+                        <span>Te Habilita en el panel de clan seleccionar <strong>SKINS</strong> de: ak, bolt y FullHQ</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>AD (autodoor)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit Build+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>BGRADE</span>
+                      </li>
+                    </ul>
+                    <div class="cs_pricing_btn_wrap">
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
+                    </div>
+                  </div>
+                  <div class="cs_height_25 cs_height_lg_25"></div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="cs_pricing_table cs_style1 cs_radius_5">
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">VIP+</h2>
+                    <div class="cs_pricing_info">
+                      <div class="cs_price">
+                        <h3 class="cs_accent_color cs_fs_50">AR$ 3500</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
+                      </div>
+                    </div>
+                    <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Permisos de NO FILA</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span><strong>BGRADE 4 (HQ)</strong></span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit Build+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>AD (autodoor)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
+                      </li>
+                    </ul>
+                    <div class="cs_pricing_btn_wrap">
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
+                    </div>
+                  </div>
+                  <div class="cs_height_25 cs_height_lg_25"></div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="cs_pricing_table cs_style1 cs_radius_5">
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">VIP OPAL</h2>
+                    <div class="cs_pricing_info">
+                      <div class="cs_price">
+                        <h3 class="cs_accent_color cs_fs_50">AR$ 4000</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
+                      </div>
+                    </div>
+                    <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Permisos de NO FILA</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>BGRADE 4 (HQ)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Kit Build+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>AD (autodoor)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
+                      </li>
+                    </ul>
+                    <div class="cs_pricing_btn_wrap">
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
                     </div>
                   </div>
                   <div class="cs_height_25 cs_height_lg_25"></div>
@@ -674,126 +694,348 @@
               <div class="row">
                 <div class="col-lg-4">
                   <div class="cs_pricing_table cs_style1 cs_radius_5">
-                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">Silver</h2>
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">NO FILA</h2>
                     <div class="cs_pricing_info">
                       <div class="cs_price">
-                        <h3 class="cs_accent_color cs_fs_50">$499</h3>
-                        <span class="cs_accent_color cs_medium">/month</span>
+                        <h3 class="cs_accent_color cs_fs_50">U$D 1</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
                       </div>
-                      <div class="cs_price_text cs_gray_color_2">Control your choices for effective business growth and more customers.</div>
                     </div>
                     <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">                           
                         </span>
-                        <span>Limited content</span>
+                        <span>Te Permite Saltarte la Fila</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
-                          <img src="assets/img/icons/check.svg" alt="Icon">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
                         </span>
-                        <span>Ad campaign</span>
+                        <span>AD (autodoor)</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
-                          <img src="assets/img/icons/check.svg" alt="Icon">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
                         </span>
-                        <span>Branding consultancy</span>
+                        <span>Kit Build+</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
-                          <img src="assets/img/icons/check.svg" alt="Icon">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
                         </span>
-                        <span>Video ad banner</span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>BGRADE</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
                       </li>
                     </ul>
                     <div class="cs_pricing_btn_wrap">
-                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Choose Packedge</a>
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
                     </div>
                   </div>
                   <div class="cs_height_25 cs_height_lg_25"></div>
                 </div>
                 <div class="col-lg-4">
                   <div class="cs_pricing_table cs_style1 cs_radius_5">
-                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">Gold <span>Popular</span></h2>
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">BUILD+ <span>Popular</span></h2>
                     <div class="cs_pricing_info">
                       <div class="cs_price">
-                        <h3 class="cs_accent_color cs_fs_50">$549</h3>
-                        <span class="cs_accent_color cs_medium">/month</span>
+                        <h3 class="cs_accent_color cs_fs_50">U$D 1.50</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
                       </div>
-                      <div class="cs_price_text cs_gray_color_2">Control your choices for effective business growth and more customers.</div>
                     </div>
                     <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Limited content</span>
+                        <span>Permisos de NO FILA</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Social ad campaign</span>
+                        <span>BGRADE 3 (metal)</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Premium consultancy</span>
+                        <span>Kit Build+</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
-                          <img src="assets/img/icons/check.svg" alt="Icon">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
                         </span>
-                        <span>Secret strategy</span>
+                        <span>AD (autodoor)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
                       </li>
                     </ul>
                     <div class="cs_pricing_btn_wrap">
-                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Choose Packedge</a>
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
                     </div>
                   </div>
                   <div class="cs_height_25 cs_height_lg_25"></div>
                 </div>
                 <div class="col-lg-4">
                   <div class="cs_pricing_table cs_style1 cs_radius_5">
-                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">Platinum</h2>
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">VIP</h2>
                     <div class="cs_pricing_info">
                       <div class="cs_price">
-                        <h3 class="cs_accent_color cs_fs_50">$899</h3>
-                        <span class="cs_accent_color cs_medium">/Yearly</span>
+                        <h3 class="cs_accent_color cs_fs_50">U$D 2</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
                       </div>
-                      <div class="cs_price_text cs_gray_color_2">Control your choices for effective business growth and more customers.</div>
                     </div>
                     <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Unlimited content</span>
+                        <span>Permisos de NO FILA</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Ad campaign</span>
+                        <span>BGRADE 3 (metal)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit Build+</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Branding consultancy</span>
+                        <span>AD (autodoor)</span>
                       </li>
                       <li>
                         <span class="cs_feature_icon cs_accent_color">
                           <img src="assets/img/icons/check.svg" alt="Icon">
                         </span>
-                        <span>Video ad banner</span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
                       </li>
                     </ul>
                     <div class="cs_pricing_btn_wrap">
-                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Choose Packedge</a>
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
+                    </div>
+                  </div>
+                  <div class="cs_height_25 cs_height_lg_25"></div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="cs_pricing_table cs_style1 cs_radius_5">
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">CLAN VIP (Solo Lider)</h2>
+                    <div class="cs_pricing_info">
+                      <div class="cs_price">
+                        <h3 class="cs_accent_color cs_fs_50">U$D 2.50</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
+                      </div>
+                    </div>
+                    <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">                           
+                        </span>
+                        <span>Te Habilita en el panel de clan seleccionar <strong>SKINS</strong> de: ak, bolt y FullHQ</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>AD (autodoor)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit Build+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>BGRADE</span>
+                      </li>
+                    </ul>
+                    <div class="cs_pricing_btn_wrap">
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
+                    </div>
+                  </div>
+                  <div class="cs_height_25 cs_height_lg_25"></div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="cs_pricing_table cs_style1 cs_radius_5">
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">VIP+</h2>
+                    <div class="cs_pricing_info">
+                      <div class="cs_price">
+                        <h3 class="cs_accent_color cs_fs_50">U$D 3.50</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
+                      </div>
+                    </div>
+                    <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Permisos de NO FILA</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span><strong>BGRADE 4 (HQ)</strong></span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit Build+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>AD (autodoor)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/x.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
+                      </li>
+                    </ul>
+                    <div class="cs_pricing_btn_wrap">
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
+                    </div>
+                  </div>
+                  <div class="cs_height_25 cs_height_lg_25"></div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="cs_pricing_table cs_style1 cs_radius_5">
+                    <h2 class="cs_pricing_title cs_fs_29 cs_semibold">VIP OPAL</h2>
+                    <div class="cs_pricing_info">
+                      <div class="cs_price">
+                        <h3 class="cs_accent_color cs_fs_50">U$D 4.50</h3>
+                        <span class="cs_accent_color cs_medium">/ 30 días</span>
+                      </div>
+                    </div>
+                    <ul class="cs_pricing_feature cs_mp0 cs_primary_font cs_fs_21">
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Permisos de NO FILA</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>BGRADE 4 (HQ)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Kit Build+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>AD (autodoor)</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>Kit VIP+</span>
+                      </li>
+                      <li>
+                        <span class="cs_feature_icon cs_accent_color">
+                          <img src="assets/img/icons/check.svg" alt="Icon">
+                        </span>
+                        <span>SkinBox</span>
+                      </li>
+                    </ul>
+                    <div class="cs_pricing_btn_wrap">
+                      <a href="#" class="cs_btn cs_style_1 cs_white_color">Seleccionar</a>
                     </div>
                   </div>
                   <div class="cs_height_25 cs_height_lg_25"></div>
