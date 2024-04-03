@@ -402,9 +402,9 @@
       <div class="container">
         <h2 class="text-center cs_fs_68 cs_outline_text">Server</h2>
         <?php
-            require_once __DIR__ . '/core.php';
+            require_once __DIR__ . '/servers/core.php';
 
-            include 'servers.php';
+            include 'servers/servers.php';
         ?>
       </div>
     </section>
