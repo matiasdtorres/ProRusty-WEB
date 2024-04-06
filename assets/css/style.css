@@ -2686,10 +2686,13 @@ hr {
   font-family: helvetica;
   overflow-x: hidden;
 }
+/* Commented out code */
+/*
 .cs_moving_text_wrap:hover .cs_moving_text {
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
+*/
 
 .cs_moving_text_in {
   display: -webkit-box;
@@ -2711,8 +2714,8 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 6px;
-  -webkit-animation: slide-left 10s linear infinite;
-          animation: slide-left 10s linear infinite;
+  -webkit-animation: slide-left 1s linear infinite;
+          animation: slide-left 1s linear infinite;
 }
 .cs_moving_text > * {
   margin: 0 20px;
@@ -2724,13 +2727,16 @@ hr {
   -webkit-text-stroke: 2px #121212;
 }
 .cs_moving_text_wrap.cs_style_1 .cs_moving_text {
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
 }
+/* Commented out code */
+/*
 .cs_moving_text_wrap.cs_style_1:hover .cs_moving_text {
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
+*/
 .cs_moving_text_wrap.cs_style_2 {
   padding-top: 25px;
   padding-bottom: 25px;

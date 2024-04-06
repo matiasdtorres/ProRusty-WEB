@@ -66,7 +66,6 @@
               <div class="cs_nav cs_medium cs_primary_font">
                 <ul class="cs_nav_list">
                   <li><a href="index.php">Home</a></li>
-                  <li><a href="about.php">About</a></li>
                   <li><a href="shop.php">Shop</a></li>
                   <li class="menu-item-has-children">
                     <a href="#">Ayuda</a>
@@ -94,17 +93,17 @@
         <div class="cs_hero_text position-relative">
           <p class="cs_hero_top_title wow zoomIn" data-wow-duration="1.1s" data-wow-delay="0.2s">
             <img src="assets/img/icons/flower.svg" alt="Icon">
-            Award Wining Startup on 2023
+            The Bests Servers in LATAM 2024
           </p>
-          <h1 class="cs_hero_title cs_fs_68 cs_white_color">Empowering Businesses with <br> Our Startup Agency</h1>
-          <p class="cs_hero_subtitle">Harness the boundless potential of Artificial Intelligence to transcend the realms of imagination and create <br>mesmerizing masterpieces that time and space, captivating hearts and minds with beauty.</p>
+          <h1 class="cs_hero_title cs_fs_68 cs_white_color">Bienvenido a <br>ProRusty Servers</h1>
+          <p class="cs_hero_subtitle">Buscabamos un servidor bien configurado y con poca latencia.<br> Como no lo encontramos decidimos crearlo.</p>
           <div class="cs_hero_btns">
-            <a href="portfolio.php" class="cs_btn cs_style_1 cs_btn_accent">See All Project 
+            <a href="#" class="cs_btn cs_style_1 cs_btn_accent">Servidores
               <span><i class="fa-solid fa-arrow-right"></i></span>
             </a>
-            <a href="https://www.youtube.com/embed/VcaAVWtP48A" class="cs_play_btn cs_style_1 cs_video_open">
+            <a href="https://www.youtube.com/embed/jWIBEyT70-E" class="cs_play_btn cs_style_1 cs_video_open">
               <img src="assets/img/icons/play.svg" alt="Icon">
-              Play Video
+              Reproducir video
             </a>
           </div>
         </div>
@@ -181,35 +180,21 @@
       <div class="cs_height_143 cs_height_lg_75"></div>
       <div class="container">
         <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
-          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">Features</p>
+          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">Características</p>
           <div class="cs_height_10 cs_height_lg_5"></div>
-          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Our aim is to improve tech based <br> solution on business</h2>
+          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Nuestro objetivo es mejorar la experiencia en <br> LATAM</h2>
         </div>
         <div class="cs_height_85 cs_height_lg_45"></div>
         <div class="row g-3">
           <div class="col-lg-6">
             <div class="cs_iconbox cs_style_4 cs_radius_5">
               <div class="cs_iconbox_icon">
-                <img src="assets/img/tech-startup/feature_icon_1.svg" alt="Icon">
-              </div>
-              <div class="cs_iconbox_right">
-                <h2 class="cs_iconbox_title cs_fs_29">Data analysis and insights</h2>
-                <p class="cs_iconbox_subtitle">AI can analyze large volumes of data quickly and accurate, valuable logtiguiative insights for decision making.</p>
-                <a href="#" class="cs_btn cs_style_1">Learn More
-                  <span><i class="fa-solid fa-arrow-right"></i></span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="cs_iconbox cs_style_4 cs_radius_5">
-              <div class="cs_iconbox_icon">
                 <img src="assets/img/tech-startup/feature_icon_2.svg" alt="Icon">
               </div>
               <div class="cs_iconbox_right">
-                <h2 class="cs_iconbox_title cs_fs_29">Data analysis and insights</h2>
-                <p class="cs_iconbox_subtitle">AI can analyze large volumes of data quickly and accurate, valuable logtiguiative insights for decision making.</p>
-                <a href="#" class="cs_btn cs_style_1">Learn More
+                <h2 class="cs_iconbox_title cs_fs_29">Servidor Alojado en Argentina</h2>
+                <p class="cs_iconbox_subtitle">Conexión rápida y estable para jugadores de la región. Gracias a nuestro partner Histeria Servers</p>
+                <a href="#" class="cs_btn cs_style_1">Aprende más
                   <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
@@ -218,12 +203,12 @@
           <div class="col-lg-6">
             <div class="cs_iconbox cs_style_4 cs_radius_5">
               <div class="cs_iconbox_icon">
-                <img src="assets/img/tech-startup/feature_icon_3.svg" alt="Icon">
+                <img src="assets/img/tech-startup/feature_icon_1.svg" alt="Icon">
               </div>
               <div class="cs_iconbox_right">
-                <h2 class="cs_iconbox_title cs_fs_29">Data analysis and insights</h2>
-                <p class="cs_iconbox_subtitle">AI can analyze large volumes of data quickly and accurate, valuable logtiguiative insights for decision making.</p>
-                <a href="#" class="cs_btn cs_style_1">Learn More
+                <h2 class="cs_iconbox_title cs_fs_29">Precios Competitivos</h2>
+                <p class="cs_iconbox_subtitle">Ofertas atractivas en rangos dentro del juego para mejorar tu experiencia.</p>
+                <a href="#" class="cs_btn cs_style_1">Aprende más
                   <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
@@ -235,9 +220,23 @@
                 <img src="assets/img/tech-startup/feature_icon_4.svg" alt="Icon">
               </div>
               <div class="cs_iconbox_right">
-                <h2 class="cs_iconbox_title cs_fs_29">Data analysis and insights</h2>
-                <p class="cs_iconbox_subtitle">AI can analyze large volumes of data quickly and accurate, valuable logtiguiative insights for decision making.</p>
-                <a href="#" class="cs_btn cs_style_1">Learn More
+                <h2 class="cs_iconbox_title cs_fs_29">Soporte 24/7</h2>
+                <p class="cs_iconbox_subtitle">Asistencia constante a través de Discord para resolver cualquier problema.</p>
+                <a href="#" class="cs_btn cs_style_1">Aprende más
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="cs_iconbox cs_style_4 cs_radius_5">
+              <div class="cs_iconbox_icon">
+                <img src="assets/img/tech-startup/feature_icon_3.svg" alt="Icon">
+              </div>
+              <div class="cs_iconbox_right">
+                <h2 class="cs_iconbox_title cs_fs_29">Configuración Equilibrada</h2>
+                <p class="cs_iconbox_subtitle">Ambiente de juego diseñado para un combate PvP y justo.</p>
+                <a href="#" class="cs_btn cs_style_1">Aprende más
                   <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
@@ -248,7 +247,7 @@
       <div class="cs_height_150 cs_height_lg_80"></div>
     </section>
     <!-- End Features Section -->
-    <!-- Start About Us -->
+    <!-- Start Server -->
     <section class="cs_primary_bg">
       <div class="cs_height_143 cs_height_lg_75"></div>
       <div class="container">
@@ -266,7 +265,7 @@
       </div>
       <div class="cs_height_150 cs_height_lg_80"></div>
     </section>
-    <!-- End About Us -->
+    <!-- End Server -->
     <!-- Start Pricing Section -->
     <section class="cs_shape_animation_2">
       <div class="cs_shape_1 position-absolute">
@@ -1008,81 +1007,81 @@
       <div class="cs_height_125 cs_height_lg_55"></div>
     </section>
     <!-- End Pricing Section -->
-    <!-- Start Blog Section -->
-    <section class="cs_p76_full_width cs_gray_bg_2">
+    <!-- Start Team Section -->
+    <section class="cs_p76_full_width">
       <div class="cs_height_143 cs_height_lg_75"></div>
       <div class="container">
-        <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
-          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">Our Blog</p>
+        <div class="cs_section_heading cs_style_1 text-center">
+          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Nuestro equipo</p>
           <div class="cs_height_10 cs_height_lg_5"></div>
-          <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Exploring the world of innovation <br>in our recent news</h2>
+          <h2 class="cs_section_title cs_fs_50 mb-0">Conozca a nuestro equipo de detrás de<br> ProRusty</h2>
         </div>
         <div class="cs_height_85 cs_height_lg_45"></div>
       </div>
       <div class="cs_slider cs_slider_1">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="cs_post cs_style_1 position-relative overflow-hidden cs_radius_5">
-              <a href="blog-details.php" class="cs_post_thumb cs_image_blur_effect">
-                <img src="assets/img/creative-agency/post_1.jpg" alt="Thumb">
-                <img src="assets/img/creative-agency/post_1.jpg" alt="Thumb">
-              </a>
-              <div class="cs_post_overlay h-100 w-100 position-absolute start-0 bottom-0"></div>
-              <div class="cs_post_info position-absolute w-100 start-0 bottom-0 d-flex flex-column justify-content-end">
-                <span class="cs_posted_by">07 Mar 2023</span>
-                <div class="cs_height_10 cs_height_lg_5"></div>
-                <h2 class="cs_post_title cs_fs_21 cs_white_color mb-0"><a href="blog-details.php">How to keep fear from ruining your art business with confident</a></h2>
+            <div class="cs_team cs_style_1">
+              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_2.jpg" alt="Team"></a>
+              <div class="cs_team_info">
+                <h2 class="cs_fs_29"><a href="">Sukor</a></h2>
+                <p class="mb-0">Director & Developer</p>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="cs_post cs_style_1 position-relative overflow-hidden cs_radius_5">
-              <a href="blog-details.php" class="cs_post_thumb cs_image_blur_effect">
-                <img src="assets/img/creative-agency/post_2.jpg" alt="Thumb">
-                <img src="assets/img/creative-agency/post_2.jpg" alt="Thumb">
-              </a>
-              <div class="cs_post_overlay h-100 w-100 position-absolute start-0 bottom-0"></div>
-              <div class="cs_post_info position-absolute w-100 start-0 bottom-0 d-flex flex-column justify-content-end">
-                <span class="cs_posted_by">22 Apr 2023</span>
-                <div class="cs_height_10 cs_height_lg_5"></div>
-                <h2 class="cs_post_title cs_fs_21 cs_white_color mb-0"><a href="blog-details.php">Artistic mind will be great for creation anything</a></h2>
+            <div class="cs_team cs_style_1">
+              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_1.jpg" alt="Team"></a>
+              <div class="cs_team_info">
+                <h2 class="cs_fs_29"><a href="">Massi</a></h2>
+                <p class="mb-0">Admin & Developer</p>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="cs_post cs_style_1 position-relative overflow-hidden cs_radius_5">
-              <a href="blog-details.php" class="cs_post_thumb cs_image_blur_effect">
-                <img src="assets/img/creative-agency/post_3.jpg" alt="Thumb">
-                <img src="assets/img/creative-agency/post_3.jpg" alt="Thumb">
-              </a>
-              <div class="cs_post_overlay h-100 w-100 position-absolute start-0 bottom-0"></div>
-              <div class="cs_post_info position-absolute w-100 start-0 bottom-0 d-flex flex-column justify-content-end">
-                <span class="cs_posted_by">13 May 2023</span>
-                <div class="cs_height_10 cs_height_lg_5"></div>
-                <h2 class="cs_post_title cs_fs_21 cs_white_color mb-0"><a href="blog-details.php">AI will take over all job for human within few years</a></h2>
+            <div class="cs_team cs_style_1">
+              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_3.jpg" alt="Team"></a>
+              <div class="cs_team_info">
+                <h2 class="cs_fs_29"><a href="">Clicon</a></h2>
+                <p class="mb-0">Admin & Developer</p>
               </div>
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="cs_post cs_style_1 position-relative overflow-hidden cs_radius_5">
-              <a href="blog-details.php" class="cs_post_thumb cs_image_blur_effect">
-                <img src="assets/img/creative-agency/post_4.jpg" alt="Thumb">
-                <img src="assets/img/creative-agency/post_4.jpg" alt="Thumb">
-              </a>
-              <div class="cs_post_overlay h-100 w-100 position-absolute start-0 bottom-0"></div>
-              <div class="cs_post_info position-absolute w-100 start-0 bottom-0 d-flex flex-column justify-content-end">
-                <span class="cs_posted_by">15 Mar 2023</span>
-                <div class="cs_height_10 cs_height_lg_5"></div>
-                <h2 class="cs_post_title cs_fs_21 cs_white_color mb-0"><a href="blog-details.php">Your agency need to replace some artistic mind people</a></h2>
+            <div class="cs_team cs_style_1">
+              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_4.jpg" alt="Team"></a>
+              <div class="cs_team_info">
+                <h2 class="cs_fs_29"><a href="">Blammed</a></h2>
+                <p class="mb-0">Admin</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cs_pagination cs_style_1"></div>
       </div>
-      <div class="cs_height_150 cs_height_lg_80"></div>
     </section>
-    <!-- End Blog Section -->
+    <!-- End Team Section -->
+    <!-- Start Moving Text -->
+    <div class="cs_height_135 cs_height_lg_70"></div>
+    <div class="cs_moving_text_wrap cs_style_1 cs_fs_68 text-uppercase cs_bold cs_primary_font">
+      <div class="cs_moving_text_in">
+        <div class="cs_moving_text">HOST EN ARGENTINA - ADMINS ACTIVOS - MEJORES PRECIOS -</div>
+        <div class="cs_moving_text">HOST EN ARGENTINA - ADMINS ACTIVOS - MEJORES PRECIOS -</div>
+      </div>
+    </div>
+    <!-- Start Moving Text -->
+    <!-- Start Brands  -->
+    <div class="cs_height_84 cs_height_lg_70"></div>
+    <div class="container">
+      <div class="cs_brands cs_style_1 wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.2s">
+        <div class="cs_brand"><img src="assets/img/marketing-agency/brand_1_dark.svg" alt="Brand"></div>
+        <div class="cs_brand"><img src="assets/img/marketing-agency/brand_2_dark.svg" alt="Brand"></div>
+        <div class="cs_brand"><img src="assets/img/marketing-agency/brand_3_dark.svg" alt="Brand"></div>
+        <div class="cs_brand"><img src="assets/img/marketing-agency/brand_4_dark.svg" alt="Brand"></div>
+      </div>
+    </div>
+    <div class="cs_height_135 cs_height_lg_80"></div>
+    <!-- End Brands  -->
     <!-- Start Footer -->
     <footer class="cs_fooer cs_bg_filed">
       <div class="container">

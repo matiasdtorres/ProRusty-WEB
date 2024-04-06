@@ -78,53 +78,13 @@
               <ul class="cs_nav_list">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
+                <li><a href="shop.php">Shop</a></li>
                 <li class="menu-item-has-children">
-                  <a href="service.php">Service</a>
-                  <ul>
-                    <li><a href="service.php">Service</a></li>
-                    <li><a href="service-details.php">Service Details</a></li>
-                  </ul>
-                </li>
-                <li class="menu-item-has-children">
-                  <a href="blog.php">Blog</a>
-                  <ul>
-                    <li><a href="blog.php">Blog Standard</a></li>
-                    <li><a href="blog-list.php">Blog List</a></li>
-                    <li><a href="blog-details.php">Blog Details</a></li>
-                  </ul>
-                </li>
-                <li class="menu-item-has-children">
-                  <a href="shop.php">Shop</a>
-                  <ul>
-                    <li>
-                      <a href="shop.php">Our Shop</a>
-                    </li>
-                    <li>
-                      <a href="shop-product-details.php">Shop Details</a>
-                    </li>
-                    <li>
-                      <a href="shop-cart.php">Cart</a>
-                    </li>
-                    <li>
-                      <a href="shop-checkout.php">Checkout</a>
-                    </li>
-                    <li>
-                      <a href="shop-order-recived.php">Success Order</a>
-                    </li>
-                    <li>
-                      <a href="shop-wishlist.php">Wishlist</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="menu-item-has-children">
-                  <a href="#">Pages</a>
-                  <ul>
-                    <li><a href="portfolio.php">Portfolio</a></li>
-                    <li><a href="portfolio-details.php">Portfolio Details</a></li>
-                    <li><a href="case-study-details.php">Case Study Details</a></li>
-                    <li><a href="team.php">Team</a></li>
-                    <li><a href="team-details.php">Team Details</a></li>
-                  </ul>
+                    <a href="#">Ayuda</a>
+                    <ul>
+                      <li><a href="reglas.php">Reglas</a></li>
+                      <li><a href="id.php">Mi ID</a></li>
+                    </ul>
                 </li>
                 <li><a href="contacto.php">Contacto</a></li>
               </ul>
@@ -144,7 +104,7 @@
               </svg>
               <span class="cs_header_cart_label">0</span>   
             </a>
-            <a href="contacto.php" class="cs_btn cs_style_1">Getting Started</a>
+            <a href="https://discord.gg/Zm7THPXVcd" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
           </div>
         </div>
       </div>

@@ -100,7 +100,7 @@
               </svg>
               <span class="cs_header_cart_label">0</span>   
             </a>
-            <a href="contacto.php" class="cs_btn cs_style_1">Getting Started</a>
+            <a href="https://discord.gg/Zm7THPXVcd" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
           </div>
         </div>
       </div>
