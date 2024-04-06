@@ -77,7 +77,6 @@
             <div class="cs_nav cs_medium cs_primary_font">
               <ul class="cs_nav_list">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
                 <li><a href="shop.php">Shop</a></li>
                 <li class="menu-item-has-children">
                     <a href="#">Ayuda</a>
