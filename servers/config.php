@@ -11,13 +11,13 @@ return [
 	'servers' => [
 
 		[
-			'ip' => 'mon.rustoria.us',
-			'port' => 28015,
+			'ip' => 'long.rustoria.lat',
+			'port' => 28010,
 			'storeLink' => 'https://prorusty.store/',
-			'battlemetricsId' => '12410930',
-			'battlemetricsLink' => 'https://www.battlemetrics.com/servers/rust/12410930',
+			'battlemetricsId' => '26975357',
+			'battlemetricsLink' => 'https://www.battlemetrics.com/servers/rust/26975357',
 		],
-
+		
 	],
 
 	/*

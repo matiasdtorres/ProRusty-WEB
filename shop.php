@@ -10,31 +10,50 @@
   <meta name="author" content="Sukor">
   <!-- Favicon Icon -->
   <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
-    <link rel="shortcut icon" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
-    <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png" />
-    <link rel="android-chrome" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png" />
-    <link rel="android-chrome" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png" />
+  <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+  <link rel="shortcut icon" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png" />
+  <link rel="android-chrome" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png" />
+  <link rel="android-chrome" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png" />
   <!-- Site Title -->
   <title>ProRusty - Shop</title>
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-  <link rel="stylesheet" href="assets/css/animate.css">
-  <link rel="stylesheet" href="assets/css/swiper.min.css">
-  <link rel="stylesheet" href="assets/css/odometer.css">
-  <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
-  <link rel="stylesheet" href="assets/css/slick.css">
-  
-    <?php
+  <?php
+    $bootstrap_css_file = 'assets/css/bootstrap.min.css';
+    $fontawesome_css_file = 'assets/css/fontawesome.min.css';
+    $animate_css_file = 'assets/css/animate.css';
+    $swiper_css_file = 'assets/css/swiper.min.css';
+    $odometer_css_file = 'assets/css/odometer.css';
+    $jquery_ui_css_file = 'assets/css/jquery-ui.min.css';
+    $slick_css_file = 'assets/css/slick.css';
     $css_file = 'assets/css/style.css';
+    
+    $bootstrap_css_version = filemtime($bootstrap_css_file);
+    $fontawesome_css_version = filemtime($fontawesome_css_file);
+    $animate_css_version = filemtime($animate_css_file);
+    $swiper_css_version = filemtime($swiper_css_file);
+    $odometer_css_version = filemtime($odometer_css_file);
+    $jquery_ui_css_version = filemtime($jquery_ui_css_file);
+    $slick_css_version = filemtime($slick_css_file);
     $css_version = filemtime($css_file);
-    ?>
-    <link rel="stylesheet" href="<?php echo $css_file; ?>?v=<?php echo $css_version; ?>">
+  ?>
+
+  <link rel="stylesheet" href="<?php echo $bootstrap_css_file; ?>?v=<?php echo $bootstrap_css_version; ?>">
+  <link rel="stylesheet" href="<?php echo $fontawesome_css_file; ?>?v=<?php echo $fontawesome_css_version; ?>">
+  <link rel="stylesheet" href="<?php echo $animate_css_file; ?>?v=<?php echo $animate_css_version; ?>">
+  <link rel="stylesheet" href="<?php echo $swiper_css_file; ?>?v=<?php echo $swiper_css_version; ?>">
+  <link rel="stylesheet" href="<?php echo $odometer_css_file; ?>?v=<?php echo $odometer_css_version; ?>">
+  <link rel="stylesheet" href="<?php echo $jquery_ui_css_file; ?>?v=<?php echo $jquery_ui_css_version; ?>">
+  <link rel="stylesheet" href="<?php echo $slick_css_file; ?>?v=<?php echo $slick_css_version; ?>">
+  <link rel="stylesheet" href="<?php echo $css_file; ?>?v=<?php echo $css_version; ?>">
+
+  <?php require_once 'shop/prices.php'; ?>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
 <body class="cs_dark">
-  <div class="cursor" id="client_cursor">View</div>
+  <div class="cursor" id="client_cursor">Cursor</div>
   <!-- Start Preloader -->
   <div class="cs_perloader">
     <div class="cs_perloader_in">
@@ -57,31 +76,7 @@
           <div class="cs_main_header_center">
             <div class="cs_nav cs_medium cs_primary_font">
               <ul class="cs_nav_list">
-                <li class="menu-item-has-children cs_mega_menu">
-                  <a href="index.php">Home</a>
-                  <ul class="cs_mega_wrapper">
-                    <li class="menu-item-has-children">
-                      <a href="#">Dark Version</a>
-                      <ul>
-                        <li><a href="index.php">Creative Agency</a></li>
-                        <li><a href="marketing-agency.php">Marketing Agency</a></li>
-                        <li><a href="studio-agency.php">Studio Agency</a></li>
-                        <li><a href="digital-agency.php">Digital Agency</a></li>
-                        <li><a href="tech-startup.php">Tech Startup</a></li>
-                      </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                      <a href="#">Light Version</a>
-                      <ul>
-                        <li><a href="index-light.php">Creative Agency</a></li>
-                        <li><a href="marketing-agency-light.php">Marketing Agency</a></li>
-                        <li><a href="studio-agency-light.php">Studio Agency</a></li>
-                        <li><a href="digital-agency-light.php">Digital Agency</a></li>
-                        <li><a href="tech-startup-light.php">Tech Startup</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li class="menu-item-has-children">
                   <a href="service.php">Service</a>
@@ -161,65 +156,23 @@
   <div class="cs_height_150 cs_height_lg_70"></div>
   <div class="cs_section_heading cs_style_1 cs_type_3 text-center">
     <div class="container">
-      <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Shop</p>
+      <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Tienda</p>
       <div class="cs_height_20 cs_height_lg_10"></div>
-      <h2 class="cs_section_title cs_fs_68 mb-0">Our products</h2>
+      <h2 class="cs_section_title cs_fs_68 mb-0">Nuestros Rangos</h2>
     </div>
   </div>
   <div class="cs_height_125 cs_height_lg_50"></div>
   <!-- End Page Heading -->
   <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="cs_shop_sidebar">
-          <div class="cs_shop_sidebar_widget">
-            <form action="#" class="cs_shop_search">
-              <input class="cs_shop_search_input" type="text" placeholder="Search Products...">
-              <button class="cs_shop_search_btn">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M11.6939 10.3222C11.5282 10.1562 11.3033 10.0629 11.0688 10.0629H10.8189C10.7506 10.0629 10.6849 10.0364 10.6357 9.98894C10.535 9.89181 10.5281 9.73333 10.6148 9.62352C11.416 8.60899 11.8925 7.33012 11.8925 5.94625C11.8925 2.66209 9.23042 0 5.94625 0C2.66209 0 0 2.66209 0 5.94625C0 9.23042 2.66209 11.8925 5.94625 11.8925C7.33012 11.8925 8.60899 11.416 9.62352 10.6148C9.73333 10.5281 9.89181 10.535 9.98894 10.6357C10.0364 10.6849 10.0629 10.7506 10.0629 10.8189V11.0688C10.0629 11.3033 10.1562 11.5282 10.3222 11.6939L13.9547 15.3191C14.3316 15.6953 14.942 15.695 15.3185 15.3185C15.695 14.942 15.6953 14.3316 15.3191 13.9547L11.6939 10.3222ZM5.94625 10.0629C3.66838 10.0629 1.82962 8.22413 1.82962 5.94625C1.82962 3.66838 3.66838 1.82962 5.94625 1.82962C8.22413 1.82962 10.0629 3.66838 10.0629 5.94625C10.0629 8.22413 8.22413 10.0629 5.94625 10.0629Z" fill="#4F4747"/>
-                </svg>                         
-              </button>
-            </form>
-          </div>
-          <div class="cs_shop_sidebar_widget">
-            <h3 class="cs_shop_sidebar_widget_title">Categories</h3>
-            <ul class="cs_shop_sidebar_category_list">
-              <li><a href="#">Design (5)</a></li>
-              <li><a href="#">Creative (2)</a></li>
-              <li><a href="#">Illustration (3)</a></li>
-            </ul>
-          </div>
-          <div class="cs_shop_sidebar_widget">
-            <h3 class="cs_shop_sidebar_widget_title">Price Filter</h3>
-            <div class="st-range-slider-wrap">
-              <div id="slider-range"></div>
-              <div class="st-amount-wrap">
-                <input type="text" id="amount" readonly>
-              </div>
-            </div>
-          </div>
-          <div class="cs_shop_sidebar_widget">
-            <h3 class="cs_shop_sidebar_widget_title">Tags</h3>
-            <ul class="cs_shop_sidebar_tag_list">
-              <li><a href="#">Brand</a></li>
-              <li><a href="#">Digital</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Creative</a></li>
-              <li><a href="#">Graphics</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <div class="row justify-content-center">
       <div class="col-lg-9">
         <div class="cs_height_0 cs_height_lg_60"></div>
         <div class="cs_shop_filter_wrap">
-          <div class="cs_number_of_product">Showing 1–9 of 12 results</div>
-          <form action="#" class="cs_shop_filter_form">
-            <select>
-              <option value="latest">Sort by latest</option>
-              <option value="high">Sort by low price</option>
-              <option value="low">Sort by high price</option>
+          <div class="cs_number_of_product"></div>
+          <form id="currency-form" action="#" class="cs_shop_filter_form" method="get">
+            <select name="currency" id="currency">
+              <option value="ARS" <?php if ($currency === 'ARS') echo 'selected'; ?>>ARS</option>
+              <option value="USD" <?php if ($currency === 'USD') echo 'selected'; ?>>USD</option>
             </select>
           </form>
         </div>
@@ -240,11 +193,6 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
-                    </svg>                      
-                  </a>
                   <a href="shop-product-details.php">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
@@ -253,8 +201,10 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">Future AI robot toys</a></h2>
-                <p class="cs_product_price">Price: $550</p>
+                <h2 class="cs_product_title"><a href="shop-product-details.php">NO FILA</a></h2>
+                <p id="nofila-price" class="cs_product_price">
+                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceNOFILA, 2) : $finalPriceNOFILA; ?>
+                </p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -267,17 +217,12 @@
                 <div class="cs_card_btns">
                   <a href="#">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#b2)">
+                      <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
                       </g>
                       <defs>
-                      <clipPath id="b2"><rect width="24" height="24" fill="currentColor"/></clipPath>
+                      <clipPath id="a1"><rect width="24" height="24" fill="currentColor"/></clipPath>
                       </defs>
-                    </svg>                      
-                  </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
                     </svg>                      
                   </a>
                   <a href="shop-product-details.php">
@@ -288,8 +233,10 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">Awesome men t-shirt</a></h2>
-                <p class="cs_product_price">Price: $20</p>
+                <h2 class="cs_product_title"><a href="shop-product-details.php">BUILD+</a></h2>
+                <p id="build_plus-price" class="cs_product_price">
+                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceBUILD_PLUS, 2) : $finalPriceBUILD_PLUS; ?>
+                </p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -302,17 +249,12 @@
                 <div class="cs_card_btns">
                   <a href="#">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#c3)">
+                      <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
                       </g>
                       <defs>
-                      <clipPath id="c3"><rect width="24" height="24" fill="currentColor"/></clipPath>
+                      <clipPath id="a1"><rect width="24" height="24" fill="currentColor"/></clipPath>
                       </defs>
-                    </svg>                      
-                  </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
                     </svg>                      
                   </a>
                   <a href="shop-product-details.php">
@@ -323,8 +265,10 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">Nature photography</a></h2>
-                <p class="cs_product_price">Price: $10</p>
+                <h2 class="cs_product_title"><a href="shop-product-details.php">VIP</a></h2>
+                <p id="vip-price" class="cs_product_price">
+                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceVIP, 2) : $finalPriceVIP; ?>
+                </p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -337,17 +281,12 @@
                 <div class="cs_card_btns">
                   <a href="#">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#d4)">
+                      <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
                       </g>
                       <defs>
-                      <clipPath id="d4"><rect width="24" height="24" fill="currentColor"/></clipPath>
+                      <clipPath id="a1"><rect width="24" height="24" fill="currentColor"/></clipPath>
                       </defs>
-                    </svg>                      
-                  </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
                     </svg>                      
                   </a>
                   <a href="shop-product-details.php">
@@ -358,8 +297,10 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">Hemp seed shampoo</a></h2>
-                <p class="cs_product_price">Price: $35</p>
+                <h2 class="cs_product_title"><a href="shop-product-details.php">CLAN VIP (Solo Lider)</a></h2>
+                <p id="clan_vip-price" class="cs_product_price">
+                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceCLAN_VIP, 2) : $finalPriceCLAN_VIP; ?>
+                </p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -372,17 +313,12 @@
                 <div class="cs_card_btns">
                   <a href="#">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#e6)">
+                      <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
                       </g>
                       <defs>
-                      <clipPath id="e6"><rect width="24" height="24" fill="currentColor"/></clipPath>
+                      <clipPath id="a1"><rect width="24" height="24" fill="currentColor"/></clipPath>
                       </defs>
-                    </svg>                      
-                  </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
                     </svg>                      
                   </a>
                   <a href="shop-product-details.php">
@@ -393,8 +329,10 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">iPhone prototype</a></h2>
-                <p class="cs_product_price">Price: $50</p>
+                <h2 class="cs_product_title"><a href="shop-product-details.php">VIP+</a></h2>
+                <p id="vip_plus-price" class="cs_product_price">
+                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceVIP_PLUS, 2) : $finalPriceVIP_PLUS; ?>
+                </p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -407,17 +345,12 @@
                 <div class="cs_card_btns">
                   <a href="#">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#f6)">
+                      <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
                       </g>
                       <defs>
-                      <clipPath id="f6"><rect width="24" height="24" fill="currentColor"/></clipPath>
+                      <clipPath id="a1"><rect width="24" height="24" fill="currentColor"/></clipPath>
                       </defs>
-                    </svg>                      
-                  </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
                     </svg>                      
                   </a>
                   <a href="shop-product-details.php">
@@ -428,245 +361,68 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">Red diamond perfume</a></h2>
-                <p class="cs_product_price">Price: $45</p>
-              </div>
-            </div>
-            <div class="cs_height_55 cs_height_lg_25"></div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="cs_product_card cs_style_1">
-              <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_7.jpg" alt="Product">
-                <div class="cs_product_overlay"></div>
-                <div class="cs_card_btns">
-                  <a href="#">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#g7)">
-                        <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
-                      </g>
-                      <defs>
-                      <clipPath id="g7"><rect width="24" height="24" fill="currentColor"/></clipPath>
-                      </defs>
-                    </svg>                      
-                  </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
-                    </svg>                      
-                  </a>
-                  <a href="shop-product-details.php">
-                    <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">3d suduku toy</a></h2>
-                <p class="cs_product_price">Price: $20</p>
-              </div>
-            </div>
-            <div class="cs_height_55 cs_height_lg_25"></div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="cs_product_card cs_style_1">
-              <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_8.jpg" alt="Product">
-                <div class="cs_product_overlay"></div>
-                <div class="cs_card_btns">
-                  <a href="#">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#h8)">
-                        <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
-                      </g>
-                      <defs>
-                      <clipPath id="h8"><rect width="24" height="24" fill="currentColor"/></clipPath>
-                      </defs>
-                    </svg>                      
-                  </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
-                    </svg>                      
-                  </a>
-                  <a href="shop-product-details.php">
-                    <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">Fossil watch</a></h2>
-                <p class="cs_product_price">Price: $450</p>
-              </div>
-            </div>
-            <div class="cs_height_55 cs_height_lg_25"></div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="cs_product_card cs_style_1">
-              <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_9.jpg" alt="Product">
-                <div class="cs_product_overlay"></div>
-                <div class="cs_card_btns">
-                  <a href="#">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#i9)">
-                        <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
-                      </g>
-                      <defs>
-                      <clipPath id="i9"><rect width="24" height="24" fill="currentColor"/></clipPath>
-                      </defs>
-                    </svg>                      
-                  </a>
-                  <a href="#">
-                    <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10 18.35L8.55 17.03C3.4 12.36 0 9.28 0 5.5C0 2.42 2.42 0 5.5 0C7.24 0 8.91 0.81 10 2.09C11.09 0.81 12.76 0 14.5 0C17.58 0 20 2.42 20 5.5C20 9.28 16.6 12.36 11.45 17.04L10 18.35Z" fill="currentColor"/>
-                    </svg>                      
-                  </a>
-                  <a href="shop-product-details.php">
-                    <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">Water bottle</a></h2>
-                <p class="cs_product_price">Price: $10</p>
+                <h2 class="cs_product_title"><a href="shop-product-details.php">VIP OPAL</a></h2>
+                <p id="vip_opal-price" class="cs_product_price">
+                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceVIP_OPAL, 2) : $finalPriceVIP_OPAL; ?>
+                </p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
           </div>
         </div>
-        <ul class="cs_pagination_box cs_white_color cs_mp0 cs_semi_bold">
-          <li>
-            <a class="cs_pagination_item cs_center active" href="shop.php">1</a>
-          </li>
-          <li>
-            <a class="cs_pagination_item cs_center" href="shop.php">2</a>
-          </li>
-          <li>
-            <a class="cs_pagination_item cs_center" href="shop.php">3</a>
-          </li>
-          <li>
-            <a href="#" class="cs_pagination_item cs_center">
-              <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0 1.272L4.55116 6L0 10.728L1.22442 12L7 6L1.22442 0L0 1.272Z" fill="currentColor"></path>
-              </svg>
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
   <div class="cs_height_150 cs_height_lg_80"></div>
+  <!-- Start Script Precios -->
+  <script>
+        $(document).ready(function(){
+            $('#currency').change(function(){
+                $.ajax({
+                    url: 'shop/update_prices.php',
+                    type: 'GET',
+                    data: $('#currency-form').serialize(),
+                    success: function(response){
+                        var prices = JSON.parse(response);
+                        $('#nofila-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceNOFILA.toFixed(2) : prices.finalPriceNOFILA));
+                        $('#build_plus-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceBUILD_PLUS.toFixed(2) : prices.finalPriceBUILD_PLUS));
+                        $('#vip-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP.toFixed(2) : prices.finalPriceVIP));
+                        $('#clan_vip-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceCLAN_VIP.toFixed(2) : prices.finalPriceCLAN_VIP));
+                        $('#vip_plus-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP_PLUS.toFixed(2) : prices.finalPriceVIP_PLUS));
+                        $('#vip_opal-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP_OPAL.toFixed(2) : prices.finalPriceVIP_OPAL));
+                    }
+                });
+            });
+        });
+  </script>
   <!-- Start Footer -->
-  <footer class="cs_fooer cs_bg_filed" data-src="assets/img/footer_bg.jpg">
-    <div class="cs_fooer_main">
+  <footer class="cs_fooer cs_bg_filed">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-sm-6">
-            <div class="cs_footer_item">
-              <div class="cs_text_widget">
-                <img src="assets/img/logo.svg" alt="Logo">
-              </div>
-              <ul class="cs_menu_widget cs_mp0">
-                <li>5553 Jay Path Apt. 908</li>
-                <li>+44 454 7800 112</li>
-                <li><a href="">email@email.com</a></li>
-              </ul>
+        <div class="cs_bottom_footer">
+          <div class="cs_bottom_footer_left">
+            <div class="cs_social_btns cs_style_1">
+              <a href="https://discord.gg/Zm7THPXVcd" target="_black" class="cs_center">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+              <a href="https://whatsapp.com/channel/0029VaZSlya9RZAeW9Nqgj46" target="_black" class="cs_center">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="cs_footer_item">
-              <h2 class="cs_widget_title">Services</h2>
-              <ul class="cs_menu_widget cs_mp0">
-                <li>
-                  <a href="service-details.php">WP Development</a>
-                </li>
-                <li>
-                  <a href="service-details.php">UX Research</a>
-                </li>
-                <li>
-                  <a href="service-details.php">Branding Design</a>
-                </li>
-                <li>
-                  <a href="service-details.php">Front-End Development</a>
-                </li>
-                <li>
-                  <a href="service-details.php">Graphics Design</a>
-                </li>
-                <li>
-                  <a href="service-details.php">Ad Promotion</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="cs_footer_item">
-              <h2 class="cs_widget_title">Links</h2>
-              <ul class="cs_menu_widget cs_mp0">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="service.php">Services</a></li>
-                <li><a href="portfolio.php">Portfolio</a></li>
-                <li><a href="blog.php"></a>Blog</li>
-                <li><a href="contact.php">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="cs_footer_item">
-              <h2 class="cs_widget_title">Subscribe Newsletter </h2>
-              <div class="cs_newsletter cs_style_1">
-                <div class="cs_newsletter_text"> We make sure to only send emails that are noteworthy and pertinent to the recipient.</div>
-                <form action="#" class="cs_newsletter_form">
-                  <input type="email" class="cs_newsletter_input" placeholder="Email address">
-                  <button class="cs_btn cs_style_1">
-                    Submit
-                    <span><i class="fa-solid fa-arrow-right"></i></span>
-                  </button>
-                </form>
-              </div>
-            </div>
+          <div class="cs_copyright">Copyright © 2024 ProRusty.</div>
+          <div class="cs_bottom_footer_right">
+            <ul class="cs_footer_links cs_mp0">
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="cs_bottom_footer">
-        <div class="cs_bottom_footer_left">
-          <div class="cs_social_btns cs_style_1">
-            <a href="#" class="cs_center">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="cs_center">
-              <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="#" class="cs_center">
-              <i class="fa-brands fa-youtube"></i>
-            </a>
-            <a href="#" class="cs_center">
-              <i class="fa-brands fa-slack"></i>
-            </a>
-          </div>
-        </div>
-        <div class="cs_copyright">Copyright © 2024 ProRusty.</div>
-        <div class="cs_bottom_footer_right">
-          <ul class="cs_footer_links cs_mp0">
-            <li>
-              <a href="#">Terms of Use</a>
-            </li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
   <!-- End Footer -->
 
   <!-- Start Scroll Up -->
@@ -676,18 +432,43 @@
     </svg>
   </span>
   <!-- End Scroll Up -->
+  
+  <!-- Scripts -->
+  <?php
+      $jquery_js_file = 'assets/js/jquery-3.6.0.min.js';
+      $wow_js_file = 'assets/js/wow.min.js';
+      $swiper_js_file = 'assets/js/swiper.min.js';
+      $odometer_js_file = 'assets/js/odometer.js';
+      $ripples_js_file = 'assets/js/ripples.min.js';
+      $isotope_js_file = 'assets/js/isotope.pkg.min.js';
+      $gsap_js_file = 'assets/js/gsap.min.js';
+      $jquery_ui_js_file = 'assets/js/jquery-ui.min.js';
+      $slick_js_file = 'assets/js/jquery.slick.min.js';
+      $main_js_file = 'assets/js/main.js';
 
-  <!-- Script -->
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/swiper.min.js"></script>
-  <script src="assets/js/odometer.js"></script>
-  <script src="assets/js/ripples.min.js"></script>
-  <script src="assets/js/isotope.pkg.min.js"></script>
-  <script src="assets/js/gsap.min.js"></script>
-  <script src="assets/js/jquery-ui.min.js"></script>
-  <script src="assets/js/jquery.slick.min.js"></script>
-  <script src="assets/js/main.js"></script>
+      $jquery_js_version = filemtime($jquery_js_file);
+      $wow_js_version = filemtime($wow_js_file);
+      $swiper_js_version = filemtime($swiper_js_file);
+      $odometer_js_version = filemtime($odometer_js_file);
+      $ripples_js_version = filemtime($ripples_js_file);
+      $isotope_js_version = filemtime($isotope_js_file);
+      $gsap_js_version = filemtime($gsap_js_file);
+      $jquery_ui_js_version = filemtime($jquery_ui_js_file);
+      $slick_js_version = filemtime($slick_js_file);
+      $main_js_version = filemtime($main_js_file);
+    ?>
+    <script src="<?php echo $jquery_js_file; ?>?v=<?php echo $jquery_js_version; ?>"></script>
+    <script src="<?php echo $wow_js_file; ?>?v=<?php echo $wow_js_version; ?>"></script>
+    <script src="<?php echo $swiper_js_file; ?>?v=<?php echo $swiper_js_version; ?>"></script>
+    <script src="<?php echo $odometer_js_file; ?>?v=<?php echo $odometer_js_version; ?>"></script>
+    <script src="<?php echo $ripples_js_file; ?>?v=<?php echo $ripples_js_version; ?>"></script>
+    <script src="<?php echo $isotope_js_file; ?>?v=<?php echo $isotope_js_version; ?>"></script>
+    <script src="<?php echo $gsap_js_file; ?>?v=<?php echo $gsap_js_version; ?>"></script>
+    <script src="<?php echo $jquery_ui_js_file; ?>?v=<?php echo $jquery_ui_js_version; ?>"></script>
+    <script src="<?php echo $slick_js_file; ?>?v=<?php echo $slick_js_version; ?>"></script>
+    <script src="<?php echo $main_js_file; ?>?v=<?php echo $main_js_version; ?>"></script>
+    <!-- End Scripts -->
+  </body>
 </body>
 
 </html>

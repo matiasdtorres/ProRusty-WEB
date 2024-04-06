@@ -41,7 +41,7 @@
 
   </head>
   <body class="cs_dark">
-    <div class="cursor" id="client_cursor">View</div>
+    <div class="cursor" id="client_cursor">Cursor</div>
     <!-- Start Preloader -->
     <div class="cs_perloader">
       <div class="cs_perloader_in">
@@ -67,52 +67,12 @@
                 <ul class="cs_nav_list">
                   <li><a href="index.php">Home</a></li>
                   <li><a href="about.php">About</a></li>
+                  <li><a href="shop.php">Shop</a></li>
                   <li class="menu-item-has-children">
-                    <a href="service.php">Service</a>
+                    <a href="#">Ayuda</a>
                     <ul>
-                      <li><a href="service.php">Service</a></li>
-                      <li><a href="service-details.php">Service Details</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="blog.php">Blog</a>
-                    <ul>
-                      <li><a href="blog.php">Blog Standard</a></li>
-                      <li><a href="blog-list.php">Blog List</a></li>
-                      <li><a href="blog-details.php">Blog Details</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="shop.php">Shop</a>
-                    <ul>
-                      <li>
-                        <a href="shop.php">Our Shop</a>
-                      </li>
-                      <li>
-                        <a href="shop-product-details.php">Shop Details</a>
-                      </li>
-                      <li>
-                        <a href="shop-cart.php">Cart</a>
-                      </li>
-                      <li>
-                        <a href="shop-checkout.php">Checkout</a>
-                      </li>
-                      <li>
-                        <a href="shop-order-recived.php">Success Order</a>
-                      </li>
-                      <li>
-                        <a href="shop-wishlist.php">Wishlist</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
-                    <ul>
-                      <li><a href="portfolio.php">Portfolio</a></li>
-                      <li><a href="portfolio-details.php">Portfolio Details</a></li>
-                      <li><a href="case-study-details.php">Case Study Details</a></li>
-                      <li><a href="team.php">Team</a></li>
-                      <li><a href="team-details.php">Team Details</a></li>
+                      <li><a href="reglas.php">Reglas</a></li>
+                      <li><a href="id.php">Mi ID</a></li>
                     </ul>
                   </li>
                   <li><a href="contact.php">Contact</a></li>
@@ -120,7 +80,7 @@
               </div>
             </div>
             <div class="cs_main_header_right">
-              <a href="contact.php" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
+              <a href="https://discord.gg/Zm7THPXVcd" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
             </div>
           </div>
         </div>
@@ -1123,109 +1083,17 @@
       <div class="cs_height_150 cs_height_lg_80"></div>
     </section>
     <!-- End Blog Section -->
-    <!-- Start CTA Section -->
-    <section>
-      <div class="cs_height_150 cs_height_lg_80"></div>
-      <div class="container">
-        <div class="cs_cta cs_style_1 cs_bg_filed position-relative cs_radius_5 overflow-hidden text-center" data-src="assets/img/tech-startup/cta_bg.jpg">
-          <div class="cs_cta_in position-relative">
-            <h2 class="cs_cta_title cs_fs_50 cs_white_color mb-0">Is there a specific project or goal that you have in mind?</h2>
-            <div class="cs_height_45 cs_height_lg_30"></div>
-            <a href="contact.php" class="cs_btn cs_style_1 cs_btn_white">Contact Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
-          </div>
-        </div>
-      </div>
-      <div class="cs_height_150 cs_height_lg_80"></div>
-    </section>
-    <!-- End CTA Section -->
     <!-- Start Footer -->
-    <footer class="cs_fooer cs_bg_filed" data-src="assets/img/footer_bg.jpg">
-      <div class="cs_fooer_main">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-sm-6">
-              <div class="cs_footer_item">
-                <div class="cs_text_widget">
-                  <img src="assets/img/logo.svg" alt="Logo">
-                </div>
-                <ul class="cs_menu_widget cs_mp0">
-                  <li>5553 Jay Path Apt. 908</li>
-                  <li>+44 454 7800 112</li>
-                  <li><a href="">email@email.com</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="cs_footer_item">
-                <h2 class="cs_widget_title">Services</h2>
-                <ul class="cs_menu_widget cs_mp0">
-                  <li>
-                    <a href="service-details.php">WP Development</a>
-                  </li>
-                  <li>
-                    <a href="service-details.php">UX Research</a>
-                  </li>
-                  <li>
-                    <a href="service-details.php">Branding Design</a>
-                  </li>
-                  <li>
-                    <a href="service-details.php">Front-End Development</a>
-                  </li>
-                  <li>
-                    <a href="service-details.php">Graphics Design</a>
-                  </li>
-                  <li>
-                    <a href="service-details.php">Ad Promotion</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="cs_footer_item">
-                <h2 class="cs_widget_title">Links</h2>
-                <ul class="cs_menu_widget cs_mp0">
-                  <li><a href="index.php">Home</a></li>
-                  <li><a href="about.php">About</a></li>
-                  <li><a href="service.php">Services</a></li>
-                  <li><a href="portfolio.php">Portfolio</a></li>
-                  <li><a href="blog.php"></a>Blog</li>
-                  <li><a href="contact.php">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <div class="cs_footer_item">
-                <h2 class="cs_widget_title">Subscribe Newsletter </h2>
-                <div class="cs_newsletter cs_style_1">
-                  <div class="cs_newsletter_text"> We make sure to only send emails that are noteworthy and pertinent to the recipient.</div>
-                  <form action="#" class="cs_newsletter_form">
-                    <input type="email" class="cs_newsletter_input" placeholder="Email address">
-                    <button class="cs_btn cs_style_1">
-                      Submit
-                      <span><i class="fa-solid fa-arrow-right"></i></span>
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <footer class="cs_fooer cs_bg_filed">
       <div class="container">
         <div class="cs_bottom_footer">
           <div class="cs_bottom_footer_left">
             <div class="cs_social_btns cs_style_1">
-              <a href="#" class="cs_center">
-                <i class="fa-brands fa-linkedin-in"></i>
+              <a href="https://discord.gg/Zm7THPXVcd" target="_black" class="cs_center">
+                <i class="fa-brands fa-discord"></i>
               </a>
-              <a href="#" class="cs_center">
-                <i class="fa-brands fa-twitter"></i>
-              </a>
-              <a href="#" class="cs_center">
-                <i class="fa-brands fa-youtube"></i>
-              </a>
-              <a href="#" class="cs_center">
-                <i class="fa-brands fa-slack"></i>
+              <a href="https://whatsapp.com/channel/0029VaZSlya9RZAeW9Nqgj46" target="_black" class="cs_center">
+                <i class="fa-brands fa-whatsapp"></i>
               </a>
             </div>
           </div>
