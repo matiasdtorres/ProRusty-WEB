@@ -126,7 +126,7 @@
                     <li><a href="team-details.php">Team Details</a></li>
                   </ul>
                 </li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -144,7 +144,7 @@
               </svg>
               <span class="cs_header_cart_label">0</span>   
             </a>
-            <a href="contact.php" class="cs_btn cs_style_1">Getting Started</a>
+            <a href="contacto.php" class="cs_btn cs_style_1">Getting Started</a>
           </div>
         </div>
       </div>
@@ -432,7 +432,7 @@
     </svg>
   </span>
   <!-- End Scroll Up -->
-  
+
   <!-- Scripts -->
   <?php
       $jquery_js_file = 'assets/js/jquery-3.6.0.min.js';

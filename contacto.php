@@ -15,7 +15,7 @@
     <link rel="android-chrome" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png" />
     <link rel="android-chrome" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png" />
     <!-- Site Title -->
-    <title>ProRusty - Contact Us</title>
+    <title>ProRusty - Contáctenos</title>
     <?php
       $bootstrap_css_file = 'assets/css/bootstrap.min.css';
       $fontawesome_css_file = 'assets/css/fontawesome.min.css';
@@ -74,12 +74,12 @@
                       <li><a href="id.php">Mi ID</a></li>
                     </ul>
                   </li>
-                  <li><a href="contact.php">Contact</a></li>
+                  <li><a href="contacto.php">Contacto</a></li>
                 </ul>
               </div>
             </div>
             <div class="cs_main_header_right">
-              <a href="contact.php" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
+              <a href="contacto.php" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
             </div>
           </div>
         </div>
@@ -91,9 +91,9 @@
     <div class="cs_height_140 cs_height_lg_80"></div>
     <div class="cs_section_heading cs_style_1 cs_type_3 ">
       <div class="container">
-        <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Contact</p>
+        <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Contacto</p>
         <div class="cs_height_20 cs_height_lg_10"></div>
-        <h2 class="cs_section_title cs_fs_68 mb-0">Get in touch for more <br>information and support</h2>
+        <h2 class="cs_section_title cs_fs_68 mb-0">Contáctanos para ayuda y detalles <br>adicionales</h2>
       </div>
       <div class="cs_shape_4">
         <img src="assets/img/icons/mail.svg" alt="Mail">
@@ -106,20 +106,24 @@
       <div class="container">
         <div class="row align-items-center cs_gap_y_45">
           <div class="col-lg-6">
-            <h2 class="cs_fs_50">Come & visit <br>our place!</h2>
+            <h2 class="cs_fs_50">canales de <br>comunicación</h2>
             <div class="cs_height_55 cs_height_lg_30"></div>
             <ul class="cs_mp0 cs_contact_info">
               <li>
-                <h3 class="cs_fs_29 cs_semibold">Email:</h3>
-                <li><a href="">email@email.com</a></li>
+                <h3 class="cs_fs_29 cs_semibold">
+                  <a href="https://whatsapp.com/channel/0029VaZSlya9RZAeW9Nqgj46" target="_black">
+                    <i class="fa-brands fa-whatsapp fa-lg"></i>
+                    <li>Whatsapp</li>
+                  </a>
+                </h3>
               </li>
               <li>
-                <h3 class="cs_fs_29 cs_semibold">Phone:</h3>
-                <p class="mb-0">+54 45 454 78 23</p>
-              </li>
-              <li>
-                <h3 class="cs_fs_29 cs_semibold">Address:</h3>
-                <p class="mb-0">55/53 Jay Pathshala Apt. 908, USA</p>
+                <h3 class="cs_fs_29 cs_semibold">
+                  <a href="https://discord.gg/Zm7THPXVcd" target="_black">
+                    <i class="fa-brands fa-discord"></i>
+                    <li>Discord</li>
+                  </a>
+                </h3>
               </li>
             </ul>
           </div>
@@ -127,19 +131,16 @@
             <div class="cs_contact_form_wrap">
               <div class="cs_gray_bg_3 cs_contact_form_bg"></div>
               <form class="cs_contact_form">
-                <label class="cs_fs_21 cs_semibold cs_primary_color">Your full name</label>
-                <input placeholder="Type your name" type="text" class="cs_form_field">
+                <label class="cs_fs_21 cs_semibold cs_primary_color">SteamID64</label>
+                <input placeholder="Escriba su ID" type="text" class="cs_form_field">
                 <div class="cs_height_38 cs_height_lg_25"></div>
-                <label class="cs_fs_21 cs_semibold cs_primary_color">Give valid email</label>
-                <input placeholder="Type your email address" type="text" class="cs_form_field">
+                <label class="cs_fs_21 cs_semibold cs_primary_color">Email</label>
+                <input placeholder="escriba su email" type="text" class="cs_form_field">
                 <div class="cs_height_38 cs_height_lg_25"></div>
-                <label class="cs_fs_21 cs_semibold cs_primary_color">Phone number</label>
-                <input placeholder="Type your phone number" type="text" class="cs_form_field">
-                <div class="cs_height_38 cs_height_lg_25"></div>
-                <label class="cs_fs_21 cs_semibold cs_primary_color">Project brief</label>
+                <label class="cs_fs_21 cs_semibold cs_primary_color">Asunto</label>
                 <textarea cols="30" rows="5" class="cs_form_field"></textarea>
                 <div class="cs_height_38 cs_height_lg_25"></div>
-                <button class="cs_btn cs_style_1">Learn More <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                <button class="cs_btn cs_style_1">Enviar <span><i class="fa-solid fa-arrow-right"></i></span></button>
               </form>
             </div>
           </div>
@@ -148,11 +149,6 @@
       <div class="cs_height_0 cs_height_lg_80"></div>
     </section>
     <!-- End Contact Section -->
-    <!-- Start Google Map -->
-    <div class="cs_map">
-      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd" allowfullscreen></iframe>
-    </div>
-    <!-- End Google Map -->
     <!-- Start Footer -->
     <footer class="cs_fooer cs_bg_filed">
       <div class="container">

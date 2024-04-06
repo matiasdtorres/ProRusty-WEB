@@ -99,7 +99,7 @@
               </svg>
               <span class="cs_header_cart_label">0</span>   
             </a>
-            <a href="contact.php" class="cs_btn cs_style_1">Getting Started</a>
+            <a href="contacto.php" class="cs_btn cs_style_1">Getting Started</a>
           </div>
         </div>
       </div>

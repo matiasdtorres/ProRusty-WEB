@@ -74,12 +74,12 @@
                       <li><a href="id.php">Mi ID</a></li>
                     </ul>
                   </li>
-                  <li><a href="contact.php">Contact</a></li>
+                  <li><a href="contacto.php">Contacto</a></li>
                 </ul>
               </div>
             </div>
             <div class="cs_main_header_right">
-              <a href="contact.php" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
+              <a href="contacto.php" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
             </div>
           </div>
         </div>

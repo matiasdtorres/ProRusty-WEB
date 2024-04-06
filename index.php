@@ -75,7 +75,7 @@
                       <li><a href="id.php">Mi ID</a></li>
                     </ul>
                   </li>
-                  <li><a href="contact.php">Contact</a></li>
+                  <li><a href="contacto.php">Contacto</a></li>
                 </ul>
               </div>
             </div>
