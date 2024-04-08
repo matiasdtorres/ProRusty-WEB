@@ -108,36 +108,36 @@
           </div>
         </div>
       </div>
-      <div id="background-wrap">
+      <div id="background-wrap" style="opacity: 0.09;">
         <div class="bubble cs_hero_shape_1">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_2">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_3">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_4">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_5">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_6">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_7">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_8">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_9">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
         <div class="bubble cs_hero_shape_10">
-          <img src="assets/img/tech-startup/hero_circle_shape_1.png" alt="">
+          <img src="assets/img/tech-startup/rust.png" alt="">
         </div>
       </div>
     </section>
