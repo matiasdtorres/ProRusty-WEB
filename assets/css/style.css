@@ -4193,6 +4193,12 @@ hr {
   opacity: 1;
 }
 
+
+
+.swiper-slide .text-center img:hover{
+  opacity: 1;
+}
+
 .cs-pd-video .cs_video_open,
 .cs-sample-img .cs_video_open {
   position: absolute;
