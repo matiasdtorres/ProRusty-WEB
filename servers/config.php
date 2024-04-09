@@ -17,6 +17,13 @@ return [
 			'battlemetricsId' => '26975357',
 			'battlemetricsLink' => 'https://www.battlemetrics.com/servers/rust/26975357',
 		],
+		[
+			'ip' => 'mars.projectnova.gg',
+			'port' => 28015,
+			'storeLink' => 'https://vip.projectnova.gg/',
+			'battlemetricsId' => '8113868',
+			'battlemetricsLink' => 'https://www.battlemetrics.com/servers/rust/8113868',
+		],
 		
 	],
 
