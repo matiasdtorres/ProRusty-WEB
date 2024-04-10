@@ -13,9 +13,11 @@ if(!$openid->mode)
     }
 ?>
 
-<form action="?login" method="post">
-    <button>Login with Steam</button>
-</form>
+<script>
+    window.onload = function() {
+        document.getElementById('steamLoginForm').submit();
+    };
+</script>
 
 <?php
 }
