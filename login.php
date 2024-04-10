@@ -19,8 +19,7 @@ if(!$openid->mode)
     };
 </script>
 
-<form id="steamLoginForm" action="?login" method="post">
-</form>
+<form id="steamLoginForm" action="?login" method="post"></form>
 
 <?php
 }
