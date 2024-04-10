@@ -1,0 +1,5 @@
+{
+    "require": {
+        "lightopenid/lightopenid": "dev-master"
+    }
+}
