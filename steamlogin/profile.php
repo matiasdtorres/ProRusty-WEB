@@ -22,7 +22,12 @@ if ($response !== false)
     if (isset($data['response']['players'][0]))
     {
         $player_info = $data['response']['players'][0];
-        $steam_name = $player_info['personaname']; // Nombre de Steam del usuario
+        // Nombre de Steam del usuario
+        $steam_name = $player_info['personaname'];
+        //Foto de perfil de Steam del usuario
+        $steam_avatar = $player_info['avatarfull'];
+        //Obtener SteamID64
+        $steamid64 = $player_info['steamid'];
         ?>
         <h1>Bienvenido, <?php echo $steam_name; ?>!</h1>
         <!-- Botón de logout -->

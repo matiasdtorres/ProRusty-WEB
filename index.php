@@ -91,7 +91,7 @@
                   </g>
                 </svg>
               </a>
-              <a href="https://discord.gg/Zm7THPXVcd" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
+              <a href="https://discord.gg/VCzRg27DQx" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
             </div>
           </div>
         </div>
@@ -1112,7 +1112,7 @@
         <div class="cs_bottom_footer">
           <div class="cs_bottom_footer_left">
             <div class="cs_social_btns cs_style_1">
-              <a href="https://discord.gg/Zm7THPXVcd" target="_black" class="cs_center">
+              <a href="https://discord.gg/VCzRg27DQx" target="_black" class="cs_center">
                 <i class="fa-brands fa-discord"></i>
               </a>
               <a href="https://whatsapp.com/channel/0029VaZSlya9RZAeW9Nqgj46" target="_black" class="cs_center">
