@@ -34,6 +34,10 @@ if ($response !== false)
         <form action="logout.php" method="post">
             <button type="submit">Cerrar sesión</button>
         </form>
+        <!-- Mostrar ID -->
+        <form action="../id.php" method="post">
+            <button type="submit">ID</button>
+        </form>
         <?php
     }
     else
