@@ -89,7 +89,7 @@ else
   <link rel="stylesheet" href="<?php echo $slick_css_file; ?>?v=<?php echo $slick_css_version; ?>">
   <link rel="stylesheet" href="<?php echo $css_file; ?>?v=<?php echo $css_version; ?>">
 
-  <?php require_once 'shop/prices.php'; ?>
+  <?php require_once 'carpeta_shop/prices.php'; ?>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -230,7 +230,7 @@ else
         $(document).ready(function(){
             $('#currency').change(function(){
                 $.ajax({
-                    url: 'shop/update_prices.php',
+                    url: 'carpeta_shop/update_prices.php',
                     type: 'GET',
                     data: $('#currency-form').serialize(),
                     success: function(response){
