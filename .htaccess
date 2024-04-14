@@ -1,7 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine On
-
-# Redirigir todas las solicitudes a archivos que no existan físicamente al archivo PHP correspondiente
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
