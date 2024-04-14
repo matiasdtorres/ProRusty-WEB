@@ -1,4 +1,7 @@
 <?php
+
+ob_start();
+
 require 'steamlogin/vendor/autoload.php'; // Incluir el autoload de Composer
 
 $openid = new LightOpenID($_SERVER['HTTP_HOST']);
