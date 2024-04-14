@@ -1,4 +1,6 @@
 <?php
+// Desactivar la visualización de advertencias
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
 
 ob_start();
 
