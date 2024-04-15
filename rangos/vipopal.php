@@ -180,7 +180,7 @@
           </div>
           <div class="cs_height_25 cs_height_lg_25"></div>
           <div class="cs_single-product-details-text">
-            <h5>Kit Disponible:</h5>
+            <h5>Kits Disponibles:</h5>
             <p>BUILD+</p>
             <p>VIP</p>
             <p>VIP+</p>
