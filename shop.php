@@ -46,10 +46,6 @@
   <link rel="stylesheet" href="<?php echo $slick_css_file; ?>?v=<?php echo $slick_css_version; ?>">
   <link rel="stylesheet" href="<?php echo $css_file; ?>?v=<?php echo $css_version; ?>">
 
-  <?php require_once 'rangos/funciones/prices.php'; ?>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 </head>
 
 <body class="cs_dark">
@@ -116,7 +112,7 @@
     <div class="container">
       <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Tienda</p>
       <div class="cs_height_20 cs_height_lg_10"></div>
-      <h2 class="cs_section_title cs_fs_68 mb-0">Nuestros Rangos</h2>
+      <h2 class="cs_section_title cs_fs_68 mb-0">ProRusty</h2>
     </div>
   </div>
   <div class="cs_height_125 cs_height_lg_50"></div>
@@ -125,15 +121,6 @@
     <div class="row justify-content-center">
       <div class="col-lg-9">
         <div class="cs_height_0 cs_height_lg_60"></div>
-        <div class="cs_shop_filter_wrap">
-          <div class="cs_number_of_product"></div>
-          <form id="currency-form" action="#" class="cs_shop_filter_form" method="get">
-            <select name="currency" id="currency">
-              <option value="ARS" <?php if ($currency === 'ARS') echo 'selected'; ?>>ARS</option>
-              <option value="USD" <?php if ($currency === 'USD') echo 'selected'; ?>>USD</option>
-            </select>
-          </form>
-        </div>
         <div class="row">
           <div class="col-lg-4 col-sm-6">
             <div class="cs_product_card cs_style_1">
@@ -160,9 +147,7 @@
               </div>
               <div class="cs_product_info">
                 <h2 class="cs_product_title"><a href="rangos/nofila.php">NO FILA</a></h2>
-                <p id="nofila-price" class="cs_product_price">
-                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceNOFILA, 2) : $finalPriceNOFILA; ?>
-                </p>
+                <p class="cs_product_price">30 dias</p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -183,7 +168,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="shop-product-details.php">
+                  <a href="rangos/buildplus.php">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -191,10 +176,8 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">BUILD+</a></h2>
-                <p id="build_plus-price" class="cs_product_price">
-                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceBUILD_PLUS, 2) : $finalPriceBUILD_PLUS; ?>
-                </p>
+                <h2 class="cs_product_title"><a href="rangos/buildplus.php">BUILD+</a></h2>
+                <p class="cs_product_price">30 dias</p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -215,7 +198,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="shop-product-details.php">
+                  <a href="rangos/vip.php">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -223,10 +206,8 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">VIP</a></h2>
-                <p id="vip-price" class="cs_product_price">
-                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceVIP, 2) : $finalPriceVIP; ?>
-                </p>
+                <h2 class="cs_product_title"><a href="rangos/vip.php">VIP</a></h2>
+                <p class="cs_product_price">30 dias</p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -247,7 +228,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="shop-product-details.php">
+                  <a href="rangos/clanvip.php">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -255,10 +236,8 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">CLAN VIP (Solo Lider)</a></h2>
-                <p id="clan_vip-price" class="cs_product_price">
-                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceCLAN_VIP, 2) : $finalPriceCLAN_VIP; ?>
-                </p>
+                <h2 class="cs_product_title"><a href="rangos/clanvip.php">CLAN VIP (Solo Lider)</a></h2>
+                <p class="cs_product_price">30 dias</p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -279,7 +258,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="shop-product-details.php">
+                  <a href="rangos/vipplus.php">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -287,10 +266,8 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">VIP+</a></h2>
-                <p id="vip_plus-price" class="cs_product_price">
-                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceVIP_PLUS, 2) : $finalPriceVIP_PLUS; ?>
-                </p>
+                <h2 class="cs_product_title"><a href="rangos/vipplus.php">VIP+</a></h2>
+                <p class="cs_product_price">30 dias</p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -311,7 +288,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="shop-product-details.php">
+                  <a href="rangos/vipopal.php">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -319,10 +296,8 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">VIP OPAL</a></h2>
-                <p id="vip_opal-price" class="cs_product_price">
-                  <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceVIP_OPAL, 2) : $finalPriceVIP_OPAL; ?>
-                </p>
+                <h2 class="cs_product_title"><a href="rangos/vipopal.php">VIP OPAL</a></h2>
+                <p class="cs_product_price">30 dias</p>
               </div>
             </div>
             <div class="cs_height_55 cs_height_lg_25"></div>
@@ -332,27 +307,6 @@
     </div>
   </div>
   <div class="cs_height_150 cs_height_lg_80"></div>
-  <!-- Start Script Precios -->
-  <script>
-        $(document).ready(function(){
-            $('#currency').change(function(){
-                $.ajax({
-                    url: 'rangos/funciones/update_prices.php',
-                    type: 'GET',
-                    data: $('#currency-form').serialize(),
-                    success: function(response){
-                        var prices = JSON.parse(response);
-                        $('#nofila-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceNOFILA.toFixed(2) : prices.finalPriceNOFILA));
-                        $('#build_plus-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceBUILD_PLUS.toFixed(2) : prices.finalPriceBUILD_PLUS));
-                        $('#vip-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP.toFixed(2) : prices.finalPriceVIP));
-                        $('#clan_vip-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceCLAN_VIP.toFixed(2) : prices.finalPriceCLAN_VIP));
-                        $('#vip_plus-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP_PLUS.toFixed(2) : prices.finalPriceVIP_PLUS));
-                        $('#vip_opal-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP_OPAL.toFixed(2) : prices.finalPriceVIP_OPAL));
-                    }
-                });
-            });
-        });
-  </script>
   <!-- Start Footer -->
   <footer class="cs_fooer cs_bg_filed">
       <div class="container">
