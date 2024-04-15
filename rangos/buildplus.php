@@ -162,11 +162,11 @@
           </div>
           <div class="cs_height_25 cs_height_lg_25"></div>
           <div class="cs_single-product-details-text">
-            <p>Kit Disponible:</p>
+            <h5>Kit Disponible:</h5>
             <p>BUILD+</p>
-            <p>Permiso Disponible:</p>
+            <h5>Permiso Disponible:</h5>
             <p>NO FILA</p>
-            <p>Comandos Disponibles:</p>
+            <h5>Comandos Disponibles:</h5>
             <p>/BGRADE 3 (metal)</p>
             <p>/bskin (Build Skins)</p>
           </div>

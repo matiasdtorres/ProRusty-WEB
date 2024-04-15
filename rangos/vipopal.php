@@ -180,7 +180,18 @@
           </div>
           <div class="cs_height_25 cs_height_lg_25"></div>
           <div class="cs_single-product-details-text">
-            <p>Otorga a los jugadores la capacidad de saltarse la fila de conexión basándose en permisos específicos. Con este rango, los jugadores tienen la ventaja de acceder al servidor de manera más rápida, evitando esperas prolongadas en la fila de conexión.</p>
+            <h5>Kit Disponible:</h5>
+            <p>BUILD+</p>
+            <p>VIP</p>
+            <p>VIP+</p>
+            <h5>Permiso Disponible:</h5>
+            <p>NO FILA</p>
+            <h5>Comandos Disponibles:</h5>
+            <p>/BGRADE 3 (metal)</p>
+            <p>/BGRADE 4 (HQ)</p>
+            <p>/bskin (Build Skins)</p>
+            <p>/ad (autodoor)</p>
+            <p>/skin (skinbox)</p>
           </div>
           <div class="cs_height_35 cs_height_lg_35"></div>
           <div class="cs_quantity_and_btn">
