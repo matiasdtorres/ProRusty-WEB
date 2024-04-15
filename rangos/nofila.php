@@ -1,46 +1,3 @@
-<?php
-session_start();
-
-if (isset($_SESSION['steamid']))
-{
-    $steamid = $_SESSION['steamid'];
-    // Continuar con el código para obtener información del jugador utilizando $steamid
-}
-else
-{
-    echo 'Error: Steam ID not found in session.';
-    exit; // Salir del script si no se encuentra el Steam ID en la sesión
-}
-
-// Hacer una solicitud a la API de Steam para obtener información del usuario
-$api_url = 'https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=279A6A5D7214EB1A17CD993428B1E01D&steamids=' . $steamid;
-$response = file_get_contents($api_url);
-
-if ($response !== false)
-{
-    $data = json_decode($response, true);
-    if (isset($data['response']['players'][0]))
-    {
-        $player_info = $data['response']['players'][0];
-        // Nombre de Steam del usuario
-        $steam_name = $player_info['personaname'];
-        //Foto de perfil de Steam del usuario
-        $steam_avatar = $player_info['avatarfull'];
-        //Obtener SteamID64
-        $steamid64 = $player_info['steamid'];
-    }
-    else
-    {
-        echo 'Error: No se puede recuperar la información del jugador.';
-    }
-}
-else
-{
-    echo 'Error: No se puede conectar a la API de Steam.';
-}
-?>
-
-
 <!DOCTYPE html>
 <html class="no-js" lang="es-AR">
 
@@ -52,23 +9,23 @@ else
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Sukor">
   <!-- Favicon Icon -->
-  <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
-  <link rel="shortcut icon" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
-  <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png" />
-  <link rel="android-chrome" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png" />
-  <link rel="android-chrome" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png" />
+  <link rel="shortcut icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png" />
+  <link rel="shortcut icon" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="../assets/img/favicon/apple-touch-icon.png" />
+  <link rel="android-chrome" sizes="192x192" href="../assets/img/favicon/android-chrome-192x192.png" />
+  <link rel="android-chrome" sizes="512x512" href="../assets/img/favicon/android-chrome-512x512.png" />
   <!-- Site Title -->
-  <title>ProRusty - ID</title>
+  <title>ProRusty - Detalles de producto</title>
   <?php
-    $bootstrap_css_file = 'assets/css/bootstrap.min.css';
-    $fontawesome_css_file = 'assets/css/fontawesome.min.css';
-    $animate_css_file = 'assets/css/animate.css';
-    $swiper_css_file = 'assets/css/swiper.min.css';
-    $odometer_css_file = 'assets/css/odometer.css';
-    $jquery_ui_css_file = 'assets/css/jquery-ui.min.css';
-    $slick_css_file = 'assets/css/slick.css';
-    $css_file = 'assets/css/style.css';
+    $bootstrap_css_file = '../assets/css/bootstrap.min.css';
+    $fontawesome_css_file = '../assets/css/fontawesome.min.css';
+    $animate_css_file = '../assets/css/animate.css';
+    $swiper_css_file = '../assets/css/swiper.min.css';
+    $odometer_css_file = '../assets/css/odometer.css';
+    $jquery_ui_css_file = '../assets/css/jquery-ui.min.css';
+    $slick_css_file = '../assets/css/slick.css';
+    $css_file = '../assets/css/style.css';
     
     $bootstrap_css_version = filemtime($bootstrap_css_file);
     $fontawesome_css_version = filemtime($fontawesome_css_file);
@@ -89,7 +46,7 @@ else
   <link rel="stylesheet" href="<?php echo $slick_css_file; ?>?v=<?php echo $slick_css_version; ?>">
   <link rel="stylesheet" href="<?php echo $css_file; ?>?v=<?php echo $css_version; ?>">
 
-  <?php require_once 'kits/prices.php'; ?>
+  <?php require_once 'funciones/prices.php'; ?>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -112,28 +69,28 @@ else
       <div class="container">
         <div class="cs_main_header_in">
           <div class="cs_main_header_left">
-            <a class="cs_site_branding" href="index.php">
-              <img src="assets/img/logo.svg" alt="Logo">
+            <a class="cs_site_branding" href="../index.php">
+              <img src="../assets/img/logo.svg" alt="Logo">
             </a>
           </div>
           <div class="cs_main_header_center">
             <div class="cs_nav cs_medium cs_primary_font">
               <ul class="cs_nav_list">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="shop.php">Shop</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../shop.php">Shop</a></li>
                 <li class="menu-item-has-children">
-                    <a href="#">Ayuda</a>
-                    <ul>
-                      <li><a href="reglas.php">Reglas</a></li>
-                      <li><a href="id.php">Mi ID</a></li>
-                    </ul>
+                  <a href="#">Ayuda</a>
+                  <ul>
+                    <li><a href="../reglas.php">Reglas</a></li>
+                    <li><a href="../id.php">Mi ID</a></li>
+                  </ul>
                 </li>
-                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="../contacto.php">Contacto</a></li>
               </ul>
             </div>
           </div>
           <div class="cs_main_header_right">
-              <a href="login.php" class="cs_header_cart">
+              <a href="../login.php" class="cs_header_cart">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" zoomAndPan="magnify" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0">
                   <defs>
                     <clipPath id="2ab03e4f9a">
@@ -146,7 +103,7 @@ else
                 </svg>
               </a>
               <a href="https://discord.gg/VCzRg27DQx" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a>
-           </div>
+            </div>
         </div>
       </div>
     </div>
@@ -157,90 +114,65 @@ else
   <div class="cs_height_150 cs_height_lg_70"></div>
   <div class="cs_section_heading cs_style_1 cs_type_3 text-center">
     <div class="container">
-      <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">ID</p>
+      <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Rango</p>
       <div class="cs_height_20 cs_height_lg_10"></div>
+      <h2 class="cs_section_title cs_fs_68 mb-0">NO FILA</h2>
     </div>
   </div>
   <div class="cs_height_125 cs_height_lg_50"></div>
   <!-- End Page Heading -->
-  <div class="container text-center">
-    <div class="row justify-content-center">
-      <div class="col-lg-9">
-        <div class="cs_height_0 cs_height_lg_60"></div>
-        <!-- PERFIL -->
-        <div class="row">
-            <div class="text-center">
-                <div class="cs_style_1">
-                <div>
-                    <img src="<?php echo $steam_avatar; ?>" style="border-radius: 50%;">
-                    <div class="cs_product_overlay"></div>
-                </div>
-                <div class="cs_product_info">
-                    <h2 class="cs_product_title"><?php echo $steam_name; ?></h2>
-                    <div class="cs_price_container">
-                    <span>Tu SteamID64:</span>
-                    <h3 class="cs_product_price"><p><?php echo $steamid64; ?></p></h3>
-                    <button class="boton_id" onclick="copyToClipboard('<?php echo $steamid64; ?>')">Copiar</button>
-                    <button class="boton_id"> <a href="steamlogin/logout.php">Cerrar sesión</a></button>
-                    <style>
-                        .boton_id {
-                        background-color: #FF4A17;
-                        color: white;
-                        padding: 10px 20px;
-                        border: none;
-                        border-radius: 5px;
-                        cursor: pointer;
-                        transition: background-color 0.3s;
-                        }
-
-                        .boton_id:hover {
-                        background-color: #ffa420;
-                        }
-                    </style>
-                    </div>
-                </div>
-                </div>
-                <div class="cs_height_55 cs_height_lg_25"></div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="cs_single_product_thumb">
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/nofila/nofila.jpg" alt="Thumb">
+          </div>
         </div>
-
-        <script>
-        function copyToClipboard(text) {
-            // Crea un elemento de texto temporal
-            var tempInput = document.createElement("input");
-            // Asigna el texto a copiar al valor del elemento
-            tempInput.value = text;
-            // Añade el elemento al cuerpo del documento
-            document.body.appendChild(tempInput);
-            // Selecciona el texto del elemento
-            tempInput.select();
-            // Copia el texto seleccionado
-            document.execCommand("copy");
-            // Remueve el elemento temporal
-            document.body.removeChild(tempInput);
-        }
-        </script>
-        <!-- PERFIL -->
+        <div class="cs_single_product_nav">
+          <div class="cs_single_product_thumb_mini">
+            <img src="../assets/img/shop/nofila/nofila-mini.jpg" alt="Thumb">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="cs_single-product-details">
+          <h2 id="nofila-price"><?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceNOFILA, 2) : $finalPriceNOFILA; ?></h2>
+          <div class="cs_single_product-price_review">
+            <div class="cs_single_product_price cs_accent_color cs_primary_font cs_semi_bold">
+            <form id="currency-form" action="#" class="cs_shop_filter_form" method="get">
+              <select name="currency" id="currency">
+                <option value="ARS" <?php if ($currency === 'ARS') echo 'selected'; ?>>ARS</option>
+                <option value="USD" <?php if ($currency === 'USD') echo 'selected'; ?>>USD</option>
+              </select>
+            </form>
+            </div>
+          </div>
+          <div class="cs_height_25 cs_height_lg_25"></div>
+          <div class="cs_single-product-details-text">
+            <p>Otorga a los jugadores la capacidad de saltarse la fila de conexión basándose en permisos específicos. Con este rango, los jugadores tienen la ventaja de acceder al servidor de manera más rápida, evitando esperas prolongadas en la fila de conexión.</p>
+          </div>
+          <div class="cs_height_35 cs_height_lg_35"></div>
+          <div class="cs_quantity_and_btn">
+            <a href="#" class="cs_product_btn cs_semi_bold">Obtener</a>
+          </div>
+          <div class="cs_height_40 cs_height_lg_30"></div>
+        </div>
       </div>
     </div>
+    <div class="cs_height_100 cs_height_lg_60"></div>
   </div>
-  <div class="cs_height_150 cs_height_lg_80"></div>
   <!-- Start Script Precios -->
   <script>
         $(document).ready(function(){
             $('#currency').change(function(){
                 $.ajax({
-                    url: 'kits/update_prices.php',
+                    url: 'funciones/update_prices.php',
                     type: 'GET',
                     data: $('#currency-form').serialize(),
                     success: function(response){
                         var prices = JSON.parse(response);
                         $('#nofila-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceNOFILA.toFixed(2) : prices.finalPriceNOFILA));
-                        $('#build_plus-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceBUILD_PLUS.toFixed(2) : prices.finalPriceBUILD_PLUS));
-                        $('#vip-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP.toFixed(2) : prices.finalPriceVIP));
-                        $('#clan_vip-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceCLAN_VIP.toFixed(2) : prices.finalPriceCLAN_VIP));
-                        $('#vip_plus-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP_PLUS.toFixed(2) : prices.finalPriceVIP_PLUS));
-                        $('#vip_opal-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceVIP_OPAL.toFixed(2) : prices.finalPriceVIP_OPAL));
                     }
                 });
             });
@@ -276,6 +208,29 @@ else
     </footer>
   <!-- End Footer -->
 
+  <span class="cs_scrollup">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 10L1.7625 11.7625L8.75 4.7875V20H11.25V4.7875L18.225 11.775L20 10L10 0L0 10Z" fill="currentColor"/>
+    </svg>      
+  </span>
+  
+  <!-- Start Video Popup -->
+  <div class="cs_video_popup">
+    <div class="cs_video_popup_overlay"></div>
+    <div class="cs_video_popup_content">
+      <div class="cs_video_popup_layer"></div>
+      <div class="cs_video_popup_container">
+        <div class="cs_video_popup_align">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="about:blank"></iframe>
+          </div>
+        </div>
+        <div class="cs_video_popup_close"></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Video Popup -->
+
   <!-- Start Scroll Up -->
   <span class="cs_scrollup">
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -286,16 +241,16 @@ else
 
   <!-- Scripts -->
   <?php
-      $jquery_js_file = 'assets/js/jquery-3.6.0.min.js';
-      $wow_js_file = 'assets/js/wow.min.js';
-      $swiper_js_file = 'assets/js/swiper.min.js';
-      $odometer_js_file = 'assets/js/odometer.js';
-      $ripples_js_file = 'assets/js/ripples.min.js';
-      $isotope_js_file = 'assets/js/isotope.pkg.min.js';
-      $gsap_js_file = 'assets/js/gsap.min.js';
-      $jquery_ui_js_file = 'assets/js/jquery-ui.min.js';
-      $slick_js_file = 'assets/js/jquery.slick.min.js';
-      $main_js_file = 'assets/js/main.js';
+      $jquery_js_file = '../assets/js/jquery-3.6.0.min.js';
+      $wow_js_file = '../assets/js/wow.min.js';
+      $swiper_js_file = '../assets/js/swiper.min.js';
+      $odometer_js_file = '../assets/js/odometer.js';
+      $ripples_js_file = '../assets/js/ripples.min.js';
+      $isotope_js_file = '../assets/js/isotope.pkg.min.js';
+      $gsap_js_file = '../assets/js/gsap.min.js';
+      $jquery_ui_js_file = '../assets/js/jquery-ui.min.js';
+      $slick_js_file = '../assets/js/jquery.slick.min.js';
+      $main_js_file = '../assets/js/main.js';
 
       $jquery_js_version = filemtime($jquery_js_file);
       $wow_js_version = filemtime($wow_js_file);
@@ -318,8 +273,7 @@ else
     <script src="<?php echo $jquery_ui_js_file; ?>?v=<?php echo $jquery_ui_js_version; ?>"></script>
     <script src="<?php echo $slick_js_file; ?>?v=<?php echo $slick_js_version; ?>"></script>
     <script src="<?php echo $main_js_file; ?>?v=<?php echo $main_js_version; ?>"></script>
-    <!-- End Scripts -->
-  </body>
+  <!-- End Scripts -->
 </body>
 
 </html>

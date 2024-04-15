@@ -46,7 +46,7 @@
   <link rel="stylesheet" href="<?php echo $slick_css_file; ?>?v=<?php echo $slick_css_version; ?>">
   <link rel="stylesheet" href="<?php echo $css_file; ?>?v=<?php echo $css_version; ?>">
 
-  <?php require_once 'carpeta_shop/prices.php'; ?>
+  <?php require_once 'rangos/funciones/prices.php'; ?>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -138,7 +138,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="cs_product_card cs_style_1">
               <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_1.jpg" alt="Product">
+                <img src="assets/img/shop/nofila.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
                   <a href="#">
@@ -151,7 +151,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="shop-product-details.php">
+                  <a href="rangos/nofila.php">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -159,7 +159,7 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="shop-product-details.php">NO FILA</a></h2>
+                <h2 class="cs_product_title"><a href="rangos/nofila.php">NO FILA</a></h2>
                 <p id="nofila-price" class="cs_product_price">
                   <?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceNOFILA, 2) : $finalPriceNOFILA; ?>
                 </p>
@@ -170,7 +170,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="cs_product_card cs_style_1">
               <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_2.jpg" alt="Product">
+                <img src="assets/img/shop/build+.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
                   <a href="#">
@@ -202,7 +202,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="cs_product_card cs_style_1">
               <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_3.jpg" alt="Product">
+                <img src="assets/img/shop/vip.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
                   <a href="#">
@@ -234,7 +234,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="cs_product_card cs_style_1">
               <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_4.jpg" alt="Product">
+                <img src="assets/img/shop/clanvip.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
                   <a href="#">
@@ -266,7 +266,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="cs_product_card cs_style_1">
               <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_5.jpg" alt="Product">
+                <img src="assets/img/shop/vip+.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
                   <a href="#">
@@ -298,7 +298,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="cs_product_card cs_style_1">
               <div class="cs_product_thumb">
-                <img src="assets/img/shop/product_6.jpg" alt="Product">
+                <img src="assets/img/shop/vipopal.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
                   <a href="#">
@@ -337,7 +337,7 @@
         $(document).ready(function(){
             $('#currency').change(function(){
                 $.ajax({
-                    url: 'carpeta_shop/update_prices.php',
+                    url: 'rangos/funciones/update_prices.php',
                     type: 'GET',
                     data: $('#currency-form').serialize(),
                     success: function(response){

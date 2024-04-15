@@ -8455,11 +8455,12 @@ hr {
           justify-content: space-between;
   margin-bottom: 30px;
   gap: 10px;
+  background-color: transparent;
 }
 .cs_shop_filter_wrap select {
-  background-color: transparent;
+  background-color: #fff;
   border: transparent;
-  color: inherit;
+  color: #000;
   outline: none;
   cursor: pointer;
 }
