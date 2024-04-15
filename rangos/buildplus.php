@@ -128,10 +128,22 @@
           <div class="cs_single_product_thumb_item">
             <img src="../assets/img/shop/build+/build+.jpg" alt="Thumb">
           </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/build+/kitbuild+.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/buildingskin.jpg" alt="Thumb">
+          </div>
         </div>
         <div class="cs_single_product_nav">
           <div class="cs_single_product_thumb_mini">
             <img src="../assets/img/shop/build+/build+-mini.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_mini">
+            <img src="../assets/img/shop/build+/kitbuild+-mini.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/buildingskin-mini.jpg" alt="Thumb">
           </div>
         </div>
       </div>
@@ -150,7 +162,13 @@
           </div>
           <div class="cs_height_25 cs_height_lg_25"></div>
           <div class="cs_single-product-details-text">
-            <p>Otorga a los jugadores la capacidad de saltarse la fila de conexión basándose en permisos específicos. Con este rango, los jugadores tienen la ventaja de acceder al servidor de manera más rápida, evitando esperas prolongadas en la fila de conexión.</p>
+            <p>Kit Disponible:</p>
+            <p>BUILD+</p>
+            <p>Permiso Disponible:</p>
+            <p>NO FILA</p>
+            <p>Comandos Disponibles:</p>
+            <p>/BGRADE 3 (metal)</p>
+            <p>/bskin (Build Skins)</p>
           </div>
           <div class="cs_height_35 cs_height_lg_35"></div>
           <div class="cs_quantity_and_btn">

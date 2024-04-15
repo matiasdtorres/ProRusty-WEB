@@ -128,10 +128,40 @@
           <div class="cs_single_product_thumb_item">
             <img src="../assets/img/shop/vipopal/vipopal.jpg" alt="Thumb">
           </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/build+/kitbuild+.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/vip/kitvip.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/vip+/kitvip+.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/skinbox.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/buildingskin.jpg" alt="Thumb">
+          </div>
         </div>
         <div class="cs_single_product_nav">
           <div class="cs_single_product_thumb_mini">
             <img src="../assets/img/shop/vipopal/vipopal-mini.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/build+/kitbuild+-mini.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/vip/kitvip-mini.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/vip+/kitvip+-mini.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/skinbox-mini.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/buildingskin-mini.jpg" alt="Thumb">
           </div>
         </div>
       </div>

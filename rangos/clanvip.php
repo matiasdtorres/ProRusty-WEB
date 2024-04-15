@@ -128,10 +128,16 @@
           <div class="cs_single_product_thumb_item">
             <img src="../assets/img/shop/clanvip/clanvip.jpg" alt="Thumb">
           </div>
+          <div class="cs_single_product_thumb_item">
+            <img src="../assets/img/shop/clanvip/skinclan.jpg" alt="Thumb">
+          </div>
         </div>
         <div class="cs_single_product_nav">
           <div class="cs_single_product_thumb_mini">
             <img src="../assets/img/shop/clanvip/clanvip-mini.jpg" alt="Thumb">
+          </div>
+          <div class="cs_single_product_thumb_mini">
+            <img src="../assets/img/shop/clanvip/skinclan-mini.jpg" alt="Thumb">
           </div>
         </div>
       </div>
