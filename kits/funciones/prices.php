@@ -41,11 +41,15 @@ $finalPriceVIP_PLUS = calculatePrice($products["VIP+"][$currency], $currency, $a
 $finalPriceVIP_OPAL = calculatePrice($products["VIP OPAL"][$currency], $currency, $aumento);
 
 // Función para calcular el precio final del producto
-function calculatePrice($basePrice, $currency, $aumento) {
-    if ($currency === 'USD') {
+function calculatePrice($basePrice, $currency, $aumento)
+{
+    if ($currency === 'USD')
+    {
         // Obtener el precio base en USD directamente
         $price = $basePrice;
-    } else {
+    }
+    else
+    {
         $price = $basePrice;
     }
 
