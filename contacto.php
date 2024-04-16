@@ -7,6 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Sukor">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
@@ -161,18 +162,23 @@
           <div class="col-lg-6">
             <div class="cs_contact_form_wrap">
               <div class="cs_gray_bg_3 cs_contact_form_bg"></div>
-              <form class="cs_contact_form">
+              <form class="cs_contact_form" method="post" action="sendEmail.php" onsubmit="return checkCaptcha()">
                 <label class="cs_fs_21 cs_semibold cs_primary_color">SteamID64</label>
-                <input placeholder="Escriba su ID" type="text" class="cs_form_field">
-                <div class="cs_height_38 cs_height_lg_25"></div>
+                <input placeholder="Escriba su ID" type="text" class="cs_form_field" name="steamid" required>
+
                 <label class="cs_fs_21 cs_semibold cs_primary_color">Email</label>
-                <input placeholder="escriba su email" type="text" class="cs_form_field">
-                <div class="cs_height_38 cs_height_lg_25"></div>
+                <input placeholder="escriba su email" type="email" class="cs_form_field" name="email" required>
+
                 <label class="cs_fs_21 cs_semibold cs_primary_color">Asunto</label>
-                <textarea cols="30" rows="5" class="cs_form_field"></textarea>
-                <div class="cs_height_38 cs_height_lg_25"></div>
-                <button class="cs_btn cs_style_1">Enviar <span><i class="fa-solid fa-arrow-right"></i></span></button>
-              </form>
+                <input placeholder="Escriba el Asunto" type="text" class="cs_form_field" name="asunto" required>
+
+                <label class="cs_fs_21 cs_semibold cs_primary_color">Mensaje</label>
+                <textarea placeholder="Escriba el Mensaje" cols="30" rows="5" class="cs_form_field" name="message" required></textarea>
+
+                <div class="g-recaptcha" data-sitekey="6LdoY70pAAAAADzNMo2MMXXWsp0YxQQ53thP_D5g" data-callback="reCaptchaCompleted"></div>
+                
+                <button type="submit" class="cs_btn cs_style_1" id="submitBtn">Enviar <span><i class="fa-solid fa-arrow-right"></i></span></button>
+              </form> 
             </div>
           </div>
         </div>
@@ -235,6 +241,23 @@
       $gsap_js_version = filemtime($gsap_js_file);
       $main_js_version = filemtime($main_js_file);
     ?>
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        var reCaptchaValidated = false;
+
+        function reCaptchaCompleted() {
+            reCaptchaValidated = true;
+        }
+
+        function checkCaptcha() {
+            if (!reCaptchaValidated) {
+                alert("Por favor complete la verificación de que no es un robot antes de enviar.");
+                return false;
+            }
+            return true;
+        }
+    </script>
     <script src="<?php echo $jquery_js_file; ?>?v=<?php echo $jquery_js_version; ?>"></script>
     <script src="<?php echo $wow_js_file; ?>?v=<?php echo $wow_js_version; ?>"></script>
     <script src="<?php echo $swiper_js_file; ?>?v=<?php echo $swiper_js_version; ?>"></script>
