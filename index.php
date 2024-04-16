@@ -111,13 +111,13 @@
           <h1 class="cs_hero_title cs_fs_68 cs_white_color">Bienvenido a <br>ProRusty Servers</h1>
           <p class="cs_hero_subtitle">Buscabamos un servidor bien configurado y con poca latencia.<br> Como no lo encontramos decidimos crearlo.</p>
           <div class="cs_hero_btns">
-            <a href="#" class="cs_btn cs_style_1 cs_btn_accent">Servidores
+            <a href="x2.php" class="cs_btn cs_style_1 cs_btn_accent">Detalles del Servidor
               <span><i class="fa-solid fa-arrow-right"></i></span>
             </a>
-            <a href="https://www.youtube.com/embed/jWIBEyT70-E" class="cs_play_btn cs_style_1 cs_video_open">
+            <!-- <a href="https://www.youtube.com/embed/jWIBEyT70-E" class="cs_play_btn cs_style_1 cs_video_open">
               <img src="assets/img/icons/play.svg" alt="Icon">
               Reproducir video
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -207,7 +207,7 @@
               <div class="cs_iconbox_right">
                 <h2 class="cs_iconbox_title cs_fs_29">Servidor Alojado en Argentina</h2>
                 <p class="cs_iconbox_subtitle">Conexión rápida y estable para jugadores de la región. Gracias a nuestro partner Histeria Servers</p>
-                <a href="#" class="cs_btn cs_style_1">Aprende más
+                <a href="https://histeriaservers.com.ar/inicio/" target="_blank" class="cs_btn cs_style_1">Aprende más
                   <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
@@ -221,7 +221,7 @@
               <div class="cs_iconbox_right">
                 <h2 class="cs_iconbox_title cs_fs_29">Precios Competitivos</h2>
                 <p class="cs_iconbox_subtitle">Ofertas atractivas en rangos dentro del juego para mejorar tu experiencia.</p>
-                <a href="#" class="cs_btn cs_style_1">Aprende más
+                <a href="shop.php" class="cs_btn cs_style_1">Aprende más
                   <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
@@ -235,7 +235,7 @@
               <div class="cs_iconbox_right">
                 <h2 class="cs_iconbox_title cs_fs_29">Soporte 24/7</h2>
                 <p class="cs_iconbox_subtitle">Asistencia constante a través de Discord para resolver cualquier problema.</p>
-                <a href="#" class="cs_btn cs_style_1">Aprende más
+                <a href="https://discord.gg/VCzRg27DQx" target="_blank" class="cs_btn cs_style_1">Aprende más
                   <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
@@ -249,7 +249,7 @@
               <div class="cs_iconbox_right">
                 <h2 class="cs_iconbox_title cs_fs_29">Configuración Equilibrada</h2>
                 <p class="cs_iconbox_subtitle">Ambiente de juego diseñado para un combate PvP y justo.</p>
-                <a href="#" class="cs_btn cs_style_1">Aprende más
+                <a href="x2.php" class="cs_btn cs_style_1">Aprende más
                   <span><i class="fa-solid fa-arrow-right"></i></span>
                 </a>
               </div>
@@ -261,7 +261,7 @@
     </section>
     <!-- End Features Section -->
     <!-- Start Server -->
-    <section class="cs_primary_bg">
+    <section id="servidoresonline" class="cs_primary_bg">
       <div class="cs_height_143 cs_height_lg_75"></div>
       <div class="container">
         <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
