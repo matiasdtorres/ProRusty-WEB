@@ -9,23 +9,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Sukor">
   <!-- Favicon Icon -->
-  <link rel="shortcut icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png" />
-  <link rel="shortcut icon" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png" />
-  <link rel="apple-touch-icon" href="../assets/img/favicon/apple-touch-icon.png" />
-  <link rel="android-chrome" sizes="192x192" href="../assets/img/favicon/android-chrome-192x192.png" />
-  <link rel="android-chrome" sizes="512x512" href="../assets/img/favicon/android-chrome-512x512.png" />
+  <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <link rel="shortcut icon" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png" />
+    <link rel="android-chrome" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png" />
+    <link rel="android-chrome" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png" />
   <!-- Site Title -->
-  <title>ProRusty - Detalles de producto</title>
+  <title>ProRusty - Privacy Policy</title>
   <?php
-    $bootstrap_css_file = '../assets/css/bootstrap.min.css';
-    $fontawesome_css_file = '../assets/css/fontawesome.min.css';
-    $animate_css_file = '../assets/css/animate.css';
-    $swiper_css_file = '../assets/css/swiper.min.css';
-    $odometer_css_file = '../assets/css/odometer.css';
-    $jquery_ui_css_file = '../assets/css/jquery-ui.min.css';
-    $slick_css_file = '../assets/css/slick.css';
-    $css_file = '../assets/css/style.css';
+    $bootstrap_css_file = 'assets/css/bootstrap.min.css';
+    $fontawesome_css_file = 'assets/css/fontawesome.min.css';
+    $animate_css_file = 'assets/css/animate.css';
+    $swiper_css_file = 'assets/css/swiper.min.css';
+    $odometer_css_file = 'assets/css/odometer.css';
+    $jquery_ui_css_file = 'assets/css/jquery-ui.min.css';
+    $slick_css_file = 'assets/css/slick.css';
+    $css_file = 'assets/css/style.css';
     
     $bootstrap_css_version = filemtime($bootstrap_css_file);
     $fontawesome_css_version = filemtime($fontawesome_css_file);
@@ -46,10 +46,6 @@
   <link rel="stylesheet" href="<?php echo $slick_css_file; ?>?v=<?php echo $slick_css_version; ?>">
   <link rel="stylesheet" href="<?php echo $css_file; ?>?v=<?php echo $css_version; ?>">
 
-  <?php require_once 'funciones/prices.php'; ?>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 </head>
 
 <body class="cs_dark">
@@ -69,23 +65,23 @@
       <div class="container">
         <div class="cs_main_header_in">
           <div class="cs_main_header_left">
-            <a class="cs_site_branding" href="../index.php">
-              <img src="../assets/img/logo.svg" alt="Logo">
+            <a class="cs_site_branding" href="index.php">
+              <img src="assets/img/logo.svg" alt="Logo">
             </a>
           </div>
           <div class="cs_main_header_center">
             <div class="cs_nav cs_medium cs_primary_font">
               <ul class="cs_nav_list">
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="../shop.php">Shop</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="shop.php">Shop</a></li>
                 <!-- <li class="menu-item-has-children">
                   <a href="#">Ayuda</a>
                   <ul>
-                    <li><a href="../reglas.php">Reglas</a></li>
-                    <li><a href="../id.php">Mi ID</a></li>
+                    <li><a href="reglas.php">Reglas</a></li>
+                    <li><a href="id.php">Mi ID</a></li>
                   </ul>
                 </li> -->
-                <li><a href="../contacto.php">Contacto</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -134,70 +130,38 @@
   <div class="cs_height_150 cs_height_lg_70"></div>
   <div class="cs_section_heading cs_style_1 cs_type_3 text-center">
     <div class="container">
-      <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">Rango</p>
+      <p class="cs_section_subtitle cs_accent_color cs_fs_21 mb-0 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">ProRusty Servers</p>
       <div class="cs_height_20 cs_height_lg_10"></div>
-      <h2 class="cs_section_title cs_fs_68 mb-0">NO FILA</h2>
+      <h2 class="cs_section_title cs_fs_68 mb-0">Privacy Policy</h2>
     </div>
   </div>
   <div class="cs_height_125 cs_height_lg_50"></div>
   <!-- End Page Heading -->
   <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="cs_single_product_thumb">
-          <div class="cs_single_product_thumb_item">
-            <img src="../assets/img/shop/nofila/nofila.jpg" alt="Thumb">
-          </div>
-        </div>
-        <div class="cs_single_product_nav">
-          <div class="cs_single_product_thumb_mini">
-            <img src="../assets/img/shop/nofila/nofila-mini.jpg" alt="Thumb">
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="cs_single-product-details">
-          <h2 id="nofila-price"><?php echo $currency; ?>: <?php echo ($currency === 'USD') ? number_format($finalPriceNOFILA, 2) : $finalPriceNOFILA; ?></h2>
-          <div class="cs_single_product-price_review">
-            <div class="cs_single_product_price cs_accent_color cs_primary_font cs_semi_bold">
-            <form id="currency-form" action="#" class="cs_shop_filter_form" method="get">
-              <select name="currency" id="currency">
-                <option value="ARS" <?php if ($currency === 'ARS') echo 'selected'; ?>>ARS</option>
-                <option value="USD" <?php if ($currency === 'USD') echo 'selected'; ?>>USD</option>
-              </select>
-            </form>
-            </div>
-          </div>
-          <div class="cs_height_25 cs_height_lg_25"></div>
-          <div class="cs_single-product-details-text">
-            <p>Otorga a los jugadores la capacidad de saltarse la fila de conexión basándose en permisos específicos. Con este rango, los jugadores tienen la ventaja de acceder al servidor de manera más rápida, evitando esperas prolongadas en la fila de conexión.</p>
-          </div>
-          <div class="cs_height_35 cs_height_lg_35"></div>
-          <div class="cs_quantity_and_btn">
-            <a href="https://discord.gg/VCzRg27DQx" class="cs_product_btn cs_semi_bold">Obtener</a>
-          </div>
-          <div class="cs_height_40 cs_height_lg_30"></div>
-        </div>
-      </div>
+  <ul class="cs_order-summery">
+      <li>
+        <p>Última actualización</p>
+        <h3>16-4-2024</h3>
+      </li>
+    </ul>
+    <div class="cs_height_50 cs_height_lg_30"></div>
+    <div class="cs_shop-card">
+      <p>Gracias por elegir utilizar los servicios de ProRusty. Nos tomamos muy en serio la privacidad de nuestros usuarios. Esta Política de Privacidad está diseñada para informarte sobre cómo recopilamos, utilizamos, compartimos y protegemos tu información personal cuando utilizas nuestro servicio.</p>
+      <h2>Información que Recopilamos</h2>
+      <p>Cuando te registras en ProRusty, podemos recopilar cierta información, como tu nombre de usuario, SteamID64, dirección de correo electrónico y cualquier otra información que elijas proporcionar voluntariamente.</p>
+      <h2>Uso de la Información</h2>
+      <p>Utilizamos la información recopilada para proporcionar y mejorar nuestro servicio. Esto puede incluir personalizar tu experiencia, comunicarnos contigo, proporcionar soporte técnico y enviar actualizaciones importantes relacionadas con el servicio.</p>
+      <h2>Divulgación de Información</h2>
+      <p>No vendemos, intercambiamos ni transferimos tu información personal a terceros</p>
+      <h2>Seguridad de la Información</h2>
+      <p>Nos esforzamos por mantener la seguridad de tu información personal y utilizamos medidas de seguridad razonables para protegerla contra accesos no autorizados, alteraciones, divulgaciones o destrucciones no autorizadas.</p>
+      <h2>Cambios en esta Política de Privacidad</h2>
+      <p>Nos reservamos el derecho de actualizar o modificar nuestra Política de Privacidad en cualquier momento. Te recomendamos revisar esta página periódicamente para estar al tanto de cualquier cambio. La fecha de la última actualización se indicará al principio de esta página.</p>
+      <h2>Contacto</h2>
+      <p>Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en prorustyservers@gmail.com</p>
     </div>
-    <div class="cs_height_100 cs_height_lg_60"></div>
   </div>
-  <!-- Start Script Precios -->
-  <script>
-        $(document).ready(function(){
-            $('#currency').change(function(){
-                $.ajax({
-                    url: 'funciones/update_prices.php',
-                    type: 'GET',
-                    data: $('#currency-form').serialize(),
-                    success: function(response){
-                        var prices = JSON.parse(response);
-                        $('#nofila-price').html(prices.currency + ": " + (prices.currency === 'USD' ? prices.finalPriceNOFILA.toFixed(2) : prices.finalPriceNOFILA));
-                    }
-                });
-            });
-        });
-  </script>
+  <div class="cs_height_150 cs_height_lg_80"></div>
   <!-- Start Footer -->
   <footer class="cs_fooer cs_bg_filed">
       <div class="container">
@@ -213,40 +177,10 @@
             </div>
           </div>
           <div class="cs_copyright">Copyright © 2024 ProRusty.</div>
-          <div class="cs_bottom_footer_right">
-            <ul class="cs_footer_links cs_mp0">
-              <li>
-                <a href="pp.php">Privacy Policy</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </footer>
   <!-- End Footer -->
-
-  <span class="cs_scrollup">
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 10L1.7625 11.7625L8.75 4.7875V20H11.25V4.7875L18.225 11.775L20 10L10 0L0 10Z" fill="currentColor"/>
-    </svg>      
-  </span>
-  
-  <!-- Start Video Popup -->
-  <div class="cs_video_popup">
-    <div class="cs_video_popup_overlay"></div>
-    <div class="cs_video_popup_content">
-      <div class="cs_video_popup_layer"></div>
-      <div class="cs_video_popup_container">
-        <div class="cs_video_popup_align">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="about:blank"></iframe>
-          </div>
-        </div>
-        <div class="cs_video_popup_close"></div>
-      </div>
-    </div>
-  </div>
-  <!-- End Video Popup -->
 
   <!-- Start Scroll Up -->
   <span class="cs_scrollup">
@@ -258,38 +192,38 @@
 
   <!-- Scripts -->
   <?php
-      $jquery_js_file = '../assets/js/jquery-3.6.0.min.js';
-      $wow_js_file = '../assets/js/wow.min.js';
-      $swiper_js_file = '../assets/js/swiper.min.js';
-      $odometer_js_file = '../assets/js/odometer.js';
-      $ripples_js_file = '../assets/js/ripples.min.js';
-      $isotope_js_file = '../assets/js/isotope.pkg.min.js';
-      $gsap_js_file = '../assets/js/gsap.min.js';
-      $jquery_ui_js_file = '../assets/js/jquery-ui.min.js';
-      $slick_js_file = '../assets/js/jquery.slick.min.js';
-      $main_js_file = '../assets/js/main.js';
+    $jquery_js_file = 'assets/js/jquery-3.6.0.min.js';
+    $wow_js_file = 'assets/js/wow.min.js';
+    $swiper_js_file = 'assets/js/swiper.min.js';
+    $odometer_js_file = 'assets/js/odometer.js';
+    $ripples_js_file = 'assets/js/ripples.min.js';
+    $isotope_js_file = 'assets/js/isotope.pkg.min.js';
+    $gsap_js_file = 'assets/js/gsap.min.js';
+    $jquery_ui_js_file = 'assets/js/jquery-ui.min.js';
+    $slick_js_file = 'assets/js/jquery.slick.min.js';
+    $main_js_file = 'assets/js/main.js';
 
-      $jquery_js_version = filemtime($jquery_js_file);
-      $wow_js_version = filemtime($wow_js_file);
-      $swiper_js_version = filemtime($swiper_js_file);
-      $odometer_js_version = filemtime($odometer_js_file);
-      $ripples_js_version = filemtime($ripples_js_file);
-      $isotope_js_version = filemtime($isotope_js_file);
-      $gsap_js_version = filemtime($gsap_js_file);
-      $jquery_ui_js_version = filemtime($jquery_ui_js_file);
-      $slick_js_version = filemtime($slick_js_file);
-      $main_js_version = filemtime($main_js_file);
-    ?>
-    <script src="<?php echo $jquery_js_file; ?>?v=<?php echo $jquery_js_version; ?>"></script>
-    <script src="<?php echo $wow_js_file; ?>?v=<?php echo $wow_js_version; ?>"></script>
-    <script src="<?php echo $swiper_js_file; ?>?v=<?php echo $swiper_js_version; ?>"></script>
-    <script src="<?php echo $odometer_js_file; ?>?v=<?php echo $odometer_js_version; ?>"></script>
-    <script src="<?php echo $ripples_js_file; ?>?v=<?php echo $ripples_js_version; ?>"></script>
-    <script src="<?php echo $isotope_js_file; ?>?v=<?php echo $isotope_js_version; ?>"></script>
-    <script src="<?php echo $gsap_js_file; ?>?v=<?php echo $gsap_js_version; ?>"></script>
-    <script src="<?php echo $jquery_ui_js_file; ?>?v=<?php echo $jquery_ui_js_version; ?>"></script>
-    <script src="<?php echo $slick_js_file; ?>?v=<?php echo $slick_js_version; ?>"></script>
-    <script src="<?php echo $main_js_file; ?>?v=<?php echo $main_js_version; ?>"></script>
+    $jquery_js_version = filemtime($jquery_js_file);
+    $wow_js_version = filemtime($wow_js_file);
+    $swiper_js_version = filemtime($swiper_js_file);
+    $odometer_js_version = filemtime($odometer_js_file);
+    $ripples_js_version = filemtime($ripples_js_file);
+    $isotope_js_version = filemtime($isotope_js_file);
+    $gsap_js_version = filemtime($gsap_js_file);
+    $jquery_ui_js_version = filemtime($jquery_ui_js_file);
+    $slick_js_version = filemtime($slick_js_file);
+    $main_js_version = filemtime($main_js_file);
+  ?>
+  <script src="<?php echo $jquery_js_file; ?>?v=<?php echo $jquery_js_version; ?>"></script>
+  <script src="<?php echo $wow_js_file; ?>?v=<?php echo $wow_js_version; ?>"></script>
+  <script src="<?php echo $swiper_js_file; ?>?v=<?php echo $swiper_js_version; ?>"></script>
+  <script src="<?php echo $odometer_js_file; ?>?v=<?php echo $odometer_js_version; ?>"></script>
+  <script src="<?php echo $ripples_js_file; ?>?v=<?php echo $ripples_js_version; ?>"></script>
+  <script src="<?php echo $isotope_js_file; ?>?v=<?php echo $isotope_js_version; ?>"></script>
+  <script src="<?php echo $gsap_js_file; ?>?v=<?php echo $gsap_js_version; ?>"></script>
+  <script src="<?php echo $jquery_ui_js_file; ?>?v=<?php echo $jquery_ui_js_version; ?>"></script>
+  <script src="<?php echo $slick_js_file; ?>?v=<?php echo $slick_js_version; ?>"></script>
+  <script src="<?php echo $main_js_file; ?>?v=<?php echo $main_js_version; ?>"></script>
   <!-- End Scripts -->
 </body>
 

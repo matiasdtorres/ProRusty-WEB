@@ -243,10 +243,7 @@
           <div class="cs_bottom_footer_right">
             <ul class="cs_footer_links cs_mp0">
               <li>
-                <a href="#">Terms of Use</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
+                <a href="pp.php">Privacy Policy</a>
               </li>
             </ul>
           </div>

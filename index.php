@@ -285,7 +285,7 @@
       <div class="cs_height_143 cs_height_lg_75"></div>
       <div class="container">
         <div class="cs_section_heading cs_style_1 cs_type_1 text-center">
-          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">By Histeria Servers</p>
+          <p class="cs_section_subtitle cs_accent_color cs_fs_18 mb-0"><a href="https://histeriaservers.com.ar/inicio/" target="_blank">By Histeria Servers</a></p>
           <div class="cs_height_10 cs_height_lg_5"></div>
           <h2 class="cs_section_title cs_fs_50 mb-0 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Servidor alojado en <br> Argentina</h2>
         </div>
@@ -327,7 +327,7 @@
             <div class="cs_team cs_style_1">
               <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_2.jpg" alt="Team"></a>
               <div class="cs_team_info">
-                <h2 class="cs_fs_29"><a>Sukor</a></h2>
+                <h2 class="cs_fs_29"><a>Matías</a></h2>
                 <p class="mb-0">Director & Developer</p>
               </div>
             </div>
@@ -345,7 +345,7 @@
             <div class="cs_team cs_style_1">
               <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_3.jpg" alt="Team"></a>
               <div class="cs_team_info">
-                <h2 class="cs_fs_29"><a>Clicon</a></h2>
+                <h2 class="cs_fs_29"><a>Nacho</a></h2>
                 <p class="mb-0">Admin & Developer</p>
               </div>
             </div>
@@ -354,7 +354,7 @@
             <div class="cs_team cs_style_1">
               <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_4.jpg" alt="Team"></a>
               <div class="cs_team_info">
-                <h2 class="cs_fs_29"><a>Blammed</a></h2>
+                <h2 class="cs_fs_29"><a>Thiago</a></h2>
                 <p class="mb-0">Admin</p>
               </div>
             </div>
@@ -404,10 +404,7 @@
           <div class="cs_bottom_footer_right">
             <ul class="cs_footer_links cs_mp0">
               <li>
-                <a href="#">Terms of Use</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
+                <a href="pp.php">Privacy Policy</a>
               </li>
             </ul>
           </div>
