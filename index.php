@@ -325,7 +325,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="cs_team cs_style_1">
-              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_2.jpg" alt="Team"></a>
+              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/team/sukor.jpg" alt="Team"></a>
               <div class="cs_team_info">
                 <h2 class="cs_fs_29"><a>Matías</a></h2>
                 <p class="mb-0">Director & Developer</p>
@@ -334,7 +334,7 @@
           </div>
           <div class="swiper-slide">
             <div class="cs_team cs_style_1">
-              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_1.jpg" alt="Team"></a>
+              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/team/massi.jpg" alt="Team"></a>
               <div class="cs_team_info">
                 <h2 class="cs_fs_29"><a>Massi</a></h2>
                 <p class="mb-0">Admin & Developer</p>
@@ -343,7 +343,7 @@
           </div>
           <div class="swiper-slide">
             <div class="cs_team cs_style_1">
-              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_3.jpg" alt="Team"></a>
+              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/team/clicon.jpg" alt="Team"></a>
               <div class="cs_team_info">
                 <h2 class="cs_fs_29"><a>Nacho</a></h2>
                 <p class="mb-0">Admin & Developer</p>
@@ -352,9 +352,9 @@
           </div>
           <div class="swiper-slide">
             <div class="cs_team cs_style_1">
-              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/studio-agency/team_4.jpg" alt="Team"></a>
+              <a class="cs_team_img cs_radius_5 overflow-hidden d-block"><img src="assets/img/team/tiago.jpg" alt="Team"></a>
               <div class="cs_team_info">
-                <h2 class="cs_fs_29"><a>Thiago</a></h2>
+                <h2 class="cs_fs_29"><a>Tiago</a></h2>
                 <p class="mb-0">Admin</p>
               </div>
             </div>
