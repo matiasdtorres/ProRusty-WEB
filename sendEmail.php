@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'] ?? '';
 
     // Configura y envía el email
-    $resend = Resend::client('re_F1veuAzT_9oHEXVh2EHVZC3LegybQDJfL');
+    $resend = Resend::client('re_5F3k6Yd7_KBe3zCnkMeZ64s4y85eMF3dv');
 
     $resend->emails->send([
       'from' => 'onboarding@resend.dev',
