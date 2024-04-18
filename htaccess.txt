@@ -11,14 +11,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-# Redirigir steam.prorusty.com a la dirección del grupo de Steam
-RewriteCond %{HTTP_HOST} ^steam.prorusty.com$ [NC]
-RewriteRule ^(.*)$ https://steamcommunity.com/groups/ProRustyServers [L,R=301]
-
-# Redirigir discord.prorusty.com a la dirección del servidor de Discord
-RewriteCond %{HTTP_HOST} ^discord.prorusty.com$ [NC]
-RewriteRule ^(.*)$ https://discord.gg/VCzRg27DQx [L,R=301]
-
 -------
 
 pdt: no se agrega ahora el .htaccess por error con render.com

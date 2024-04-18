@@ -7,7 +7,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Sukor">
-    <script src="https://www.google.com/recaptcha/api.js"></script>
     <!-- Favicon Icon -->
     <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
@@ -38,6 +37,12 @@
     <link rel="stylesheet" href="<?php echo $swiper_css_file; ?>?v=<?php echo $swiper_css_version; ?>">
     <link rel="stylesheet" href="<?php echo $odometer_css_file; ?>?v=<?php echo $odometer_css_version; ?>">
     <link rel="stylesheet" href="<?php echo $css_file; ?>?v=<?php echo $css_version; ?>">
+
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('WzODWZTyu-eF4QgpU')
+    </script>
 
   </head>
   <body class="cs_dark">
@@ -133,7 +138,7 @@
     </div>
     <div class="cs_height_85 cs_height_lg_45"></div>
     <!-- End Page Heading -->
-    <!-- Start Contact Section -->
+    <!-- Start Contact Section -->  
     <section>
       <div class="container">
         <div class="row align-items-center cs_gap_y_45">
@@ -162,23 +167,40 @@
           <div class="col-lg-6">
             <div class="cs_contact_form_wrap">
               <div class="cs_gray_bg_3 cs_contact_form_bg"></div>
-              <form class="cs_contact_form" method="post" action="sendEmail.php" onsubmit="return checkCaptcha()">
-                <label class="cs_fs_21 cs_semibold cs_primary_color">SteamID64</label>
-                <input placeholder="Escriba su ID" type="text" class="cs_form_field" name="steamid" required>
-
-                <label class="cs_fs_21 cs_semibold cs_primary_color">Email</label>
-                <input placeholder="escriba su email" type="email" class="cs_form_field" name="email" required>
-
-                <label class="cs_fs_21 cs_semibold cs_primary_color">Asunto</label>
-                <input placeholder="Escriba el Asunto" type="text" class="cs_form_field" name="asunto" required>
-
-                <label class="cs_fs_21 cs_semibold cs_primary_color">Mensaje</label>
-                <textarea placeholder="Escriba el Mensaje" cols="30" rows="5" class="cs_form_field" name="message" required></textarea>
-
+              <form class="cs_contact_form" id="form">
+                <div class="field">
+                  <label for="from_name" class="cs_fs_21 cs_semibold cs_primary_color">Id de steam</label>
+                  <input type="text" name="from_name" id="from_name" placeholder="Id de steamcommunity" class="cs_form_field" required>
+                  <div class="cs_height_38 cs_height_lg_25"></div>
+                </div>
+                <div class="field">
+                  <label for="from_name" class="cs_fs_21 cs_semibold cs_primary_color">Nombre De Usuario</label>
+                  <input type="text" name="from_name" id="from_name" placeholder="Nombre De Usuario" class="cs_form_field" required>
+                  <div class="cs_height_38 cs_height_lg_25"></div>
+                </div>
+                <div class="field">
+                  <label for="to_name" class="cs_fs_21 cs_semibold cs_primary_color">Nombre del destinatario</label>
+                  <input type="text" name="to_name" id="to_name" placeholder="Nombre del destinatario" class="cs_form_field" pattern="^admin$" title="Solo se permite 'admin'" required>
+                  <div class="cs_height_38 cs_height_lg_25"></div>
+                </div>
+                <div class="field">
+                  <label for="email_subject" class="cs_fs_21 cs_semibold cs_primary_color">Asunto del Email</label>
+                  <input type="text" name="email_subject" id="email_subject" placeholder="Asunto del email" class="cs_form_field" required>
+                  <div class="cs_height_38 cs_height_lg_25"></div>
+                </div>
+                <div class="field">
+                  <label for="message" class="cs_fs_21 cs_semibold cs_primary_color">Mensaje</label>
+                  <textarea name="message" id="message" placeholder="Escriba su mensaje" cols="30" rows="5" class="cs_form_field" required></textarea>
+                  <div class="cs_height_38 cs_height_lg_25"></div>
+                </div>
+                <div class="field">
+                  <label for="email_id" class="cs_fs_21 cs_semibold cs_primary_color">Email para contactarte</label>
+                  <input type="email" name="email_id" id="email_id" placeholder="Email de contacto" class="cs_form_field" required>
+                  <div class="cs_height_38 cs_height_lg_25"></div>
+                </div>
                 <div class="g-recaptcha" data-sitekey="6LdoY70pAAAAADzNMo2MMXXWsp0YxQQ53thP_D5g" data-callback="reCaptchaCompleted"></div>
-                
-                <button type="submit" class="cs_btn cs_style_1" id="submitBtn">Enviar <span><i class="fa-solid fa-arrow-right"></i></span></button>
-              </form> 
+                <button class="cs_btn cs_style_1" type="submit">Enviar <span><i class="fa-solid fa-arrow-right"></i></span></button>
+              </form>
             </div>
           </div>
         </div>
@@ -242,22 +264,98 @@
       $main_js_version = filemtime($main_js_file);
     ?>
 
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-        var reCaptchaValidated = false;
+    <!-- Scripts para enviar el correo -->
+    <script type="text/javascript">
+    // Añadiendo CSS dinámicamente
+    const css = `
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s;
+      z-index: 10000;
 
-        function reCaptchaCompleted() {
-            reCaptchaValidated = true;
-        }
+    .custom-alert {
+      background-color: #d95a35;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+      z-index: 10001;
+    }
+    `;
 
-        function checkCaptcha() {
-            if (!reCaptchaValidated) {
-                alert("Por favor complete la verificación de que no es un robot antes de enviar.");
-                return false;
-            }
-            return true;
-        }
+    const head = document.head;
+    const style = document.createElement('style');
+    head.appendChild(style);
+    style.appendChild(document.createTextNode(css));
+
+    // Añadiendo la funcionalidad de envío de formulario
+    document.getElementById('form').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const btn = document.querySelector('.cs_btn'); // Asegúrate de seleccionar el botón correcto
+      btn.innerText = 'Enviando...';
+
+      const serviceID = 'default_service';
+      const templateID = 'template_gy32frd';
+
+      emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+          btn.innerText = 'Enviar';
+          showCustomAlert('¡Correo enviado!'); // Mostrar alerta solo si el correo fue enviado exitosamente
+        }, (err) => {
+          btn.innerText = 'Enviar';
+          showCustomAlert('Error: ' + JSON.stringify(err)); // Mostrar alerta en caso de error
+        });
+    });
+
+    function showCustomAlert(message) {
+      const overlay = document.createElement('div');
+      overlay.className = 'overlay';
+      const alertBox = document.createElement('div');
+      alertBox.className = 'custom-alert';
+      alertBox.innerText = message;
+      overlay.appendChild(alertBox);
+
+      document.body.appendChild(overlay);
+
+      overlay.style.visibility = 'visible';
+      overlay.style.opacity = '1';
+
+      setTimeout(() => {
+        document.body.removeChild(overlay);
+      }, 3000); // Cierra el alerta después de 3 segundos
+    }
     </script>
+
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+      <script>
+          var reCaptchaValidated = false;
+
+          function reCaptchaCompleted() {
+              reCaptchaValidated = true;
+          }
+
+          function checkCaptcha() {
+              if (!reCaptchaValidated) {
+                  alert("Por favor complete la verificación de que no es un robot antes de enviar.");
+                  return false;
+              }
+              return true;
+          }
+    </script>
+
     <script src="<?php echo $jquery_js_file; ?>?v=<?php echo $jquery_js_version; ?>"></script>
     <script src="<?php echo $wow_js_file; ?>?v=<?php echo $wow_js_version; ?>"></script>
     <script src="<?php echo $swiper_js_file; ?>?v=<?php echo $swiper_js_version; ?>"></script>
