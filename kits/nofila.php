@@ -8,6 +8,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Sukor">
+  <meta name="description" content="Únete a ProRusty, el servidor Rust modded x2 en Argentina y disponible para toda Latinoamérica. ¡Juega con hasta 5 jugadores por equipo y disfruta de comandos como /tpr, /home, /trade, /bgrade y más!">
+  <meta name="keywords" content="servidor Rust Argentina, servidor Rust Latinoamérica, servidor Rust modded x2, ProRusty Rust, Rust comandos /tpr /home /trade /bgrade, juego Rust en equipo, servidor Rust 5 jugadores por equipo, rust argentina, argentina rust, prorusty, prorusty server, prorusty.com, prorusty tiktok, tiktok prorusty, prorusty latam, latam prorusty">
   <!-- Favicon Icon -->
   <link rel="shortcut icon" href="../assets/img/favicon/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" sizes="16x16" href="../assets/img/favicon/favicon-16x16.png" />
@@ -69,28 +71,28 @@
       <div class="container">
         <div class="cs_main_header_in">
           <div class="cs_main_header_left">
-            <a class="cs_site_branding" href="../index.php">
+            <a class="cs_site_branding" href="https://prorusty.com/">
               <img src="../assets/img/logo.svg" alt="Logo">
             </a>
           </div>
           <div class="cs_main_header_center">
             <div class="cs_nav cs_medium cs_primary_font">
               <ul class="cs_nav_list">
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="../shop.php">Shop</a></li>
+                <li><a href="https://prorusty.com/">Home</a></li>
+                <li><a href="https://prorusty.com/shop">Shop</a></li>
                 <!-- <li class="menu-item-has-children">
                   <a href="#">Ayuda</a>
                   <ul>
-                    <li><a href="../reglas.php">Reglas</a></li>
-                    <li><a href="../id.php">Mi ID</a></li>
+                    <li><a href="https://prorusty.com/reglas">Reglas</a></li>
+                    <li><a href="https://prorusty.com/id">Mi ID</a></li>
                   </ul>
                 </li> -->
-                <li><a href="../contacto.php">Contacto</a></li>
+                <li><a href="https://prorusty.com/contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
           <div class="cs_main_header_right">
-            <a href="https://discord.gg/VCzRg27DQx" target="_blank" class="cs_header_cart">
+            <a href="https://discord.prorusty.com/" target="_blank" class="cs_header_cart">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" zoomAndPan="magnify" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0">
                 <defs>
                   <clipPath id="bbfa7643a9">
@@ -110,7 +112,7 @@
                 <path fill="#ff4a17" d="M 78.734375 122.109375 C 77.953125 122.109375 77.191406 121.691406 76.789062 120.957031 C 76.199219 119.882812 76.59375 118.535156 77.664062 117.945312 C 112.101562 99.023438 148.023438 89.832031 187.5 89.832031 C 210.148438 89.832031 231.410156 92.890625 252.503906 99.179688 C 253.683594 99.53125 254.347656 100.765625 254 101.941406 C 253.652344 103.113281 252.414062 103.792969 251.242188 103.433594 C 230.558594 97.265625 209.710938 94.269531 187.5 94.269531 C 148.792969 94.269531 113.566406 103.285156 79.804688 121.828125 C 79.464844 122.015625 79.097656 122.109375 78.734375 122.109375 Z M 78.734375 122.109375 " fill-opacity="1" fill-rule="nonzero" />
               </svg>
             </a>
-            <a href="https://steamcommunity.com/groups/ProRustyServers" target="_blank" class="cs_header_cart">
+            <a href="https://steam.prorusty.com/" target="_blank" class="cs_header_cart">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" zoomAndPan="magnify" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0">
                 <defs>
                   <clipPath id="2ab03e4f9a">
@@ -122,7 +124,7 @@
                 </g>
               </svg>
             </a>
-            <!-- <a href="https://discord.gg/VCzRg27DQx" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a> -->
+            <!-- <a href="https://discord.prorusty.com/" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a> -->
           </div>
         </div>
       </div>
@@ -174,7 +176,7 @@
           </div>
           <div class="cs_height_35 cs_height_lg_35"></div>
           <div class="cs_quantity_and_btn">
-            <a href="https://discord.gg/VCzRg27DQx" class="cs_product_btn cs_semi_bold">Obtener</a>
+            <a href="https://discord.prorusty.com/" class="cs_product_btn cs_semi_bold">Obtener</a>
           </div>
           <div class="cs_height_40 cs_height_lg_30"></div>
         </div>
@@ -204,7 +206,7 @@
         <div class="cs_bottom_footer">
           <div class="cs_bottom_footer_left">
             <div class="cs_social_btns cs_style_1">
-              <a href="https://discord.gg/VCzRg27DQx" target="_black" class="cs_center">
+              <a href="https://discord.prorusty.com/" target="_black" class="cs_center">
                 <i class="fa-brands fa-discord"></i>
               </a>
               <a href="https://whatsapp.com/channel/0029VaZSlya9RZAeW9Nqgj46" target="_black" class="cs_center">
@@ -216,7 +218,7 @@
           <div class="cs_bottom_footer_right">
             <ul class="cs_footer_links cs_mp0">
               <li>
-                <a href="pp.php">Privacy Policy</a>
+                <a href="https://prorusty.com/pp">Privacy Policy</a>
               </li>
             </ul>
           </div>

@@ -8,6 +8,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Sukor">
+  <meta name="description" content="Únete a ProRusty, el servidor Rust modded x2 en Argentina y disponible para toda Latinoamérica. ¡Juega con hasta 5 jugadores por equipo y disfruta de comandos como /tpr, /home, /trade, /bgrade y más!">
+  <meta name="keywords" content="servidor Rust Argentina, servidor Rust Latinoamérica, servidor Rust modded x2, ProRusty Rust, Rust comandos /tpr /home /trade /bgrade, juego Rust en equipo, servidor Rust 5 jugadores por equipo, rust argentina, argentina rust, prorusty, prorusty server, prorusty.com, prorusty tiktok, tiktok prorusty, prorusty latam, latam prorusty">
   <!-- Favicon Icon -->
   <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
@@ -65,28 +67,28 @@
       <div class="container">
         <div class="cs_main_header_in">
           <div class="cs_main_header_left">
-            <a class="cs_site_branding" href="index.php">
+            <a class="cs_site_branding" href="https://prorusty.com/">
               <img src="assets/img/logo.svg" alt="Logo">
             </a>
           </div>
           <div class="cs_main_header_center">
             <div class="cs_nav cs_medium cs_primary_font">
               <ul class="cs_nav_list">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="shop.php">Shop</a></li>
+                <li><a href="https://prorusty.com/">Home</a></li>
+                <li><a href="https://prorusty.com/shop">Shop</a></li>
                 <!-- <li class="menu-item-has-children">
                     <a href="#">Ayuda</a>
                     <ul>
-                      <li><a href="reglas.php">Reglas</a></li>
-                      <li><a href="id.php">Mi ID</a></li>
+                      <li><a href="https://prorusty.com/reglas">Reglas</a></li>
+                      <li><a href="https://prorusty.com/id">Mi ID</a></li>
                     </ul>
                 </li> -->
-                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="https://prorusty.com/contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
           <div class="cs_main_header_right">
-            <a href="https://discord.gg/VCzRg27DQx" target="_blank" class="cs_header_cart">
+            <a href="https://discord.prorusty.com/" target="_blank" class="cs_header_cart">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" zoomAndPan="magnify" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0">
                 <defs>
                   <clipPath id="bbfa7643a9">
@@ -106,7 +108,7 @@
                 <path fill="#ff4a17" d="M 78.734375 122.109375 C 77.953125 122.109375 77.191406 121.691406 76.789062 120.957031 C 76.199219 119.882812 76.59375 118.535156 77.664062 117.945312 C 112.101562 99.023438 148.023438 89.832031 187.5 89.832031 C 210.148438 89.832031 231.410156 92.890625 252.503906 99.179688 C 253.683594 99.53125 254.347656 100.765625 254 101.941406 C 253.652344 103.113281 252.414062 103.792969 251.242188 103.433594 C 230.558594 97.265625 209.710938 94.269531 187.5 94.269531 C 148.792969 94.269531 113.566406 103.285156 79.804688 121.828125 C 79.464844 122.015625 79.097656 122.109375 78.734375 122.109375 Z M 78.734375 122.109375 " fill-opacity="1" fill-rule="nonzero" />
               </svg>
             </a>
-            <a href="https://steamcommunity.com/groups/ProRustyServers" target="_blank" class="cs_header_cart">
+            <a href="https://steam.prorusty.com/" target="_blank" class="cs_header_cart">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" zoomAndPan="magnify" viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0">
                 <defs>
                   <clipPath id="2ab03e4f9a">
@@ -118,7 +120,7 @@
                 </g>
               </svg>
             </a>
-            <!-- <a href="https://discord.gg/VCzRg27DQx" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a> -->
+            <!-- <a href="https://discord.prorusty.com/" target="_blank" class="cs_btn cs_style_discord cs_btn_white">Server Discord</a> -->
           </div>
         </div>
       </div>
@@ -148,7 +150,7 @@
                 <img src="assets/img/shop/nofila.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
-                  <a href="https://discord.gg/VCzRg27DQx" target="_blank">
+                  <a href="https://discord.prorusty.com/" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
@@ -158,7 +160,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="kits/nofila.php">
+                  <a href="https://prorusty.com/kits/nofila">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -166,7 +168,7 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="kits/nofila.php">NO FILA</a></h2>
+                <h2 class="cs_product_title"><a href="https://prorusty.com/kits/nofila">NO FILA</a></h2>
                 <p class="cs_product_price">30 dias</p>
               </div>
             </div>
@@ -178,7 +180,7 @@
                 <img src="assets/img/shop/build+.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
-                  <a href="https://discord.gg/VCzRg27DQx" target="_blank">
+                  <a href="https://discord.prorusty.com/" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
@@ -188,7 +190,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="kits/buildplus.php">
+                  <a href="https://prorusty.com/kits/buildplus">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -196,7 +198,7 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="kits/buildplus.php">BUILD+</a></h2>
+                <h2 class="cs_product_title"><a href="https://prorusty.com/kits/buildplus">BUILD+</a></h2>
                 <p class="cs_product_price">30 dias</p>
               </div>
             </div>
@@ -208,7 +210,7 @@
                 <img src="assets/img/shop/vip.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
-                  <a href="https://discord.gg/VCzRg27DQx" target="_blank">
+                  <a href="https://discord.prorusty.com/" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
@@ -218,7 +220,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="kits/vip.php">
+                  <a href="https://prorusty.com/kits/vip">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -226,7 +228,7 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="kits/vip.php">VIP</a></h2>
+                <h2 class="cs_product_title"><a href="https://prorusty.com/kits/vip">VIP</a></h2>
                 <p class="cs_product_price">30 dias</p>
               </div>
             </div>
@@ -238,7 +240,7 @@
                 <img src="assets/img/shop/clanvip.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
-                  <a href="https://discord.gg/VCzRg27DQx" target="_blank">
+                  <a href="https://discord.prorusty.com/" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
@@ -248,7 +250,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="kits/clanvip.php">
+                  <a href="https://prorusty.com/kits/clanvip">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -256,7 +258,7 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="kits/clanvip.php">CLAN VIP (Solo Lider)</a></h2>
+                <h2 class="cs_product_title"><a href="https://prorusty.com/kits/clanvip">CLAN VIP (Solo Lider)</a></h2>
                 <p class="cs_product_price">30 dias</p>
               </div>
             </div>
@@ -268,7 +270,7 @@
                 <img src="assets/img/shop/vip+.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
-                  <a href="https://discord.gg/VCzRg27DQx" target="_blank">
+                  <a href="https://discord.prorusty.com/" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
@@ -278,7 +280,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="kits/vipplus.php">
+                  <a href="https://prorusty.com/kits/vipplus">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -286,7 +288,7 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="kits/vipplus.php">VIP+</a></h2>
+                <h2 class="cs_product_title"><a href="https://prorusty.com/kits/vipplus">VIP+</a></h2>
                 <p class="cs_product_price">30 dias</p>
               </div>
             </div>
@@ -298,7 +300,7 @@
                 <img src="assets/img/shop/vipopal.jpg" alt="Product">
                 <div class="cs_product_overlay"></div>
                 <div class="cs_card_btns">
-                  <a href="https://discord.gg/VCzRg27DQx" target="_blank">
+                  <a href="https://discord.prorusty.com/" target="_blank">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#a1)">
                         <path d="M7 18C5.9 18 5.01 18.9 5.01 20C5.01 21.1 5.9 22 7 22C8.1 22 9 21.1 9 20C9 18.9 8.1 18 7 18ZM1 2V4H3L6.6 11.59L5.25 14.04C5.09 14.32 5 14.65 5 15C5 16.1 5.9 17 7 17H19V15H7.42C7.28 15 7.17 14.89 7.17 14.75L7.2 14.63L8.1 13H15.55C16.3 13 16.96 12.59 17.3 11.97L20.88 5.48C20.96 5.34 21 5.17 21 5C21 4.45 20.55 4 20 4H5.21L4.27 2H1ZM17 18C15.9 18 15.01 18.9 15.01 20C15.01 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18Z" fill="currentColor"/>
@@ -308,7 +310,7 @@
                       </defs>
                     </svg>                      
                   </a>
-                  <a href="kits/vipopal.php">
+                  <a href="https://prorusty.com/kits/vipopal">
                     <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M11 0.5C6 0.5 1.73 3.61 0 8C1.73 12.39 6 15.5 11 15.5C16 15.5 20.27 12.39 22 8C20.27 3.61 16 0.5 11 0.5ZM11 13C8.24 13 6 10.76 6 8C6 5.24 8.24 3 11 3C13.76 3 16 5.24 16 8C16 10.76 13.76 13 11 13ZM11 5C9.34 5 8 6.34 8 8C8 9.66 9.34 11 11 11C12.66 11 14 9.66 14 8C14 6.34 12.66 5 11 5Z" fill="currentColor"/>
                     </svg>
@@ -316,7 +318,7 @@
                 </div>
               </div>
               <div class="cs_product_info">
-                <h2 class="cs_product_title"><a href="kits/vipopal.php">VIP OPAL</a></h2>
+                <h2 class="cs_product_title"><a href="https://prorusty.com/kits/vipopal">VIP OPAL</a></h2>
                 <p class="cs_product_price">30 dias</p>
               </div>
             </div>
@@ -333,7 +335,7 @@
         <div class="cs_bottom_footer">
           <div class="cs_bottom_footer_left">
             <div class="cs_social_btns cs_style_1">
-              <a href="https://discord.gg/VCzRg27DQx" target="_black" class="cs_center">
+              <a href="https://discord.prorusty.com/" target="_black" class="cs_center">
                 <i class="fa-brands fa-discord"></i>
               </a>
               <a href="https://whatsapp.com/channel/0029VaZSlya9RZAeW9Nqgj46" target="_black" class="cs_center">
@@ -345,7 +347,7 @@
           <div class="cs_bottom_footer_right">
             <ul class="cs_footer_links cs_mp0">
               <li>
-                <a href="pp.php">Privacy Policy</a>
+                <a href="https://prorusty.com/pp">Privacy Policy</a>
               </li>
             </ul>
           </div>
