@@ -171,8 +171,18 @@
               <div class="cs_gray_bg_3 cs_contact_form_bg"></div>
               <form class="cs_contact_form" id="form">
                 <div class="field">
-                  <label for="from_name" class="cs_fs_21 cs_semibold cs_primary_color">Id de steam64</label>
-                  <input type="text" name="from_name" id="from_name" placeholder="Id de steam64" class="cs_form_field" required>
+                  <label for="from_name" class="cs_fs_21 cs_semibold cs_primary_color">Id de steam</label>
+                  <input type="text" name="from_name" id="from_name" placeholder="Id de steamcommunity" class="cs_form_field" required>
+                  <div class="cs_height_38 cs_height_lg_25"></div>
+                </div>
+                <div class="field">
+                  <label for="from_name" class="cs_fs_21 cs_semibold cs_primary_color">Nombre De Usuario</label>
+                  <input type="text" name="from_name" id="from_name" placeholder="Nombre De Usuario" class="cs_form_field" required>
+                  <div class="cs_height_38 cs_height_lg_25"></div>
+                </div>
+                <div class="field">
+                  <label for="to_name" class="cs_fs_21 cs_semibold cs_primary_color">Nombre del destinatario</label>
+                  <input type="text" name="to_name" id="to_name" placeholder="Nombre del destinatario" class="cs_form_field" pattern="^admin$" title="Solo se permite 'admin'" required>
                   <div class="cs_height_38 cs_height_lg_25"></div>
                 </div>
                 <div class="field">
